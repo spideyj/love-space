@@ -404,7 +404,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 1, b: 0, a: 1}
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 23267e8ee4d65374382a818800bc3ef6, type: 3}
+    m_Font: {fileID: 12800000, guid: 90e5e3c7de4826c449dc1fff9826321d, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 1
@@ -455,7 +455,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 1, b: 0, a: 0}
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 53b1baf9bbafaff48804fbae899b1584, type: 3}
+    m_Font: {fileID: 12800000, guid: 967cc940e63a27b488f7d96b30d02be1, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -1204,7 +1204,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 1, b: 0, a: 1}
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 23267e8ee4d65374382a818800bc3ef6, type: 3}
+    m_Font: {fileID: 12800000, guid: 90e5e3c7de4826c449dc1fff9826321d, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 1
@@ -1642,8 +1642,6 @@ GameObject:
   - 114: {fileID: 617275376}
   - 114: {fileID: 617275359}
   - 114: {fileID: 617275357}
-  - 114: {fileID: 617275361}
-  - 114: {fileID: 617275366}
   - 114: {fileID: 617275375}
   - 114: {fileID: 617275378}
   - 114: {fileID: 617275377}
@@ -1708,6 +1706,40 @@ GameObject:
   - 114: {fileID: 617275412}
   - 114: {fileID: 617275393}
   - 114: {fileID: 617275435}
+  - 114: {fileID: 617275438}
+  - 114: {fileID: 617275437}
+  - 114: {fileID: 617275436}
+  - 114: {fileID: 617275366}
+  - 114: {fileID: 617275361}
+  - 114: {fileID: 617275441}
+  - 114: {fileID: 617275440}
+  - 114: {fileID: 617275439}
+  - 114: {fileID: 617275460}
+  - 114: {fileID: 617275459}
+  - 114: {fileID: 617275458}
+  - 114: {fileID: 617275457}
+  - 114: {fileID: 617275456}
+  - 114: {fileID: 617275455}
+  - 114: {fileID: 617275454}
+  - 114: {fileID: 617275453}
+  - 114: {fileID: 617275452}
+  - 114: {fileID: 617275451}
+  - 114: {fileID: 617275450}
+  - 114: {fileID: 617275449}
+  - 114: {fileID: 617275448}
+  - 114: {fileID: 617275447}
+  - 114: {fileID: 617275446}
+  - 114: {fileID: 617275445}
+  - 114: {fileID: 617275444}
+  - 114: {fileID: 617275443}
+  - 114: {fileID: 617275442}
+  - 114: {fileID: 617275467}
+  - 114: {fileID: 617275466}
+  - 114: {fileID: 617275465}
+  - 114: {fileID: 617275464}
+  - 114: {fileID: 617275463}
+  - 114: {fileID: 617275462}
+  - 114: {fileID: 617275461}
   m_Layer: 0
   m_Name: FlowchartWaking1
   m_TagString: Untagged
@@ -1853,7 +1885,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -101.222282
+    x: -102.28611
     y: 44.3141861
     width: 120
     height: 40
@@ -1868,7 +1900,6 @@ MonoBehaviour:
   - {fileID: 617275352}
   - {fileID: 617275351}
   - {fileID: 617275378}
-  - {fileID: 617275361}
   - {fileID: 617275366}
 --- !u!114 &617275355
 MonoBehaviour:
@@ -1882,20 +1913,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollPos: {x: 130.764709, y: .176513672}
+  scrollPos: {x: 298.126404, y: .0489196777}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 0
   blockViewHeight: 252
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
-    x: -544.404053
-    y: -526.941162
-    width: 1988.26733
-    height: 1446.76465
-  selectedBlock: {fileID: 617275354}
+    x: -648.126404
+    y: -532.04895
+    width: 2091.98975
+    height: 1499
+  selectedBlock: {fileID: 617275384}
   selectedCommands:
-  - {fileID: 617275378}
+  - {fileID: 617275460}
   variables:
   - {fileID: 617275415}
   - {fileID: 617275414}
@@ -1997,16 +2028,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 617275348}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 26
+  itemId: 83
   errorMessage: 
   indentLevel: 0
-  targetGameObject: {fileID: 1612700937}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+  storyText: '"I woke and I thought Lili was next to me and I reached out for her,
+    but she wasn''t there.'
+  description: 
+  character: {fileID: 1888752072}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 676385768}
 --- !u!114 &617275362
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2094,24 +2134,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 617275348}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 27
+  itemId: 82
   errorMessage: 
   indentLevel: 0
-  storyText: Select an option from the control panel
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeIn: 0
-  fadeOut: 0
-  waitForClick: 1
-  setSayDialog: {fileID: 123292806}
+  targetFlowchart: {fileID: 617275355}
+  targetBlock: {fileID: 617275438}
+  callMode: 0
 --- !u!114 &617275367
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2482,6 +2513,10 @@ MonoBehaviour:
   commandList:
   - {fileID: 617275433}
   - {fileID: 617275396}
+  - {fileID: 617275460}
+  - {fileID: 617275455}
+  - {fileID: 617275457}
+  - {fileID: 617275456}
   - {fileID: 617275434}
 --- !u!114 &617275385
 MonoBehaviour:
@@ -2681,7 +2716,7 @@ MonoBehaviour:
     stringVal: 
 --- !u!114 &617275393
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 617275348}
@@ -2693,7 +2728,10 @@ MonoBehaviour:
   itemId: 77
   errorMessage: 
   indentLevel: 0
-  storyText: '"It''s always so hard when you wake and think you''re somewhere else'
+  storyText: '"It''s always so hard when you wake and think you''re somewhere else
+    and it takes so long to shake off. You''re existing in two spaces at once, the
+    memory that you''re not quite sure is real, and the present also feels distant,
+    like a dream."'
   description: 
   character: {fileID: 1888752072}
   portrait: {fileID: 0}
@@ -3074,7 +3112,7 @@ MonoBehaviour:
   value: 0
 --- !u!114 &617275412
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 617275348}
@@ -3086,7 +3124,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 210.235291
-    y: 172.823486
+    y: 171.759659
     width: 120
     height: 40
   itemId: 76
@@ -3096,6 +3134,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 617275435}
   - {fileID: 617275393}
+  - {fileID: 617275361}
 --- !u!114 &617275413
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3537,7 +3576,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &617275435
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 617275348}
@@ -3549,7 +3588,7 @@ MonoBehaviour:
   itemId: 78
   errorMessage: 
   indentLevel: 0
-  storyText: 
+  storyText: Begin recording when ready.
   description: 
   character: {fileID: 2109630365}
   portrait: {fileID: 21300000, guid: 5c729a31f76071e46a10868fdbbef5cb, type: 3}
@@ -3561,6 +3600,781 @@ MonoBehaviour:
   fadeOut: 0
   waitForClick: 1
   setSayDialog: {fileID: 123292806}
+--- !u!114 &617275436
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 81
+  errorMessage: 
+  indentLevel: 0
+  storyText: Select an option from the control panel
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 123292806}
+--- !u!114 &617275437
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 80
+  errorMessage: 
+  indentLevel: 0
+  targetGameObject: {fileID: 1612700937}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &617275438
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -105.722122
+    y: 126.610664
+    width: 123
+    height: 40
+  itemId: 79
+  blockName: ControlPanel
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 617275437}
+  - {fileID: 617275436}
+--- !u!114 &617275439
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 43.8735962
+    y: 516.95105
+    width: 120
+    height: 40
+  itemId: 86
+  blockName: Hypersleep
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+--- !u!114 &617275440
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 85
+  errorMessage: 
+  indentLevel: 0
+  storyText: I thought you were supposed to wake Leah too?
+  description: 
+  character: {fileID: 1888752072}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 676385768}
+--- !u!114 &617275441
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 43.7033997
+    y: 457.823425
+    width: 135
+    height: 40
+  itemId: 84
+  blockName: SystemsStatus
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 617275440}
+--- !u!114 &617275442
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 105
+  errorMessage: 
+  indentLevel: 0
+  text: Don't replace the filter
+  description: 
+  targetBlock: {fileID: 617275445}
+  hideIfVisited: 0
+  setMenuDialog: {fileID: 0}
+--- !u!114 &617275443
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 104
+  errorMessage: 
+  indentLevel: 0
+  text: Replace the filter
+  description: 
+  targetBlock: {fileID: 617275446}
+  hideIfVisited: 0
+  setMenuDialog: {fileID: 0}
+--- !u!114 &617275444
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b097b9790a8a1456a86bc4d322b487db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 103
+  errorMessage: 
+  indentLevel: 0
+  menuDialog: {fileID: 1637694385}
+--- !u!114 &617275445
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 375.873596
+    y: 62.9510803
+    width: 120
+    height: 40
+  itemId: 102
+  blockName: ReplaceN
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+--- !u!114 &617275446
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 371.873596
+    y: 14.9510803
+    width: 120
+    height: 40
+  itemId: 101
+  blockName: ReplaceY
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 617275462}
+  - {fileID: 617275466}
+  - {fileID: 617275465}
+  - {fileID: 617275464}
+  - {fileID: 617275463}
+  - {fileID: 617275461}
+--- !u!114 &617275447
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 100
+  errorMessage: 
+  indentLevel: 0
+  storyText: Mari, I have found a minor issue with our life support systems. One of
+    the filters is performing below expected parameters. Would you like me to replace
+    it?
+  description: 
+  character: {fileID: 2109630365}
+  portrait: {fileID: 21300000, guid: f991601f0d81aa644b7384cfcc31f466, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &617275448
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 99
+  errorMessage: 
+  indentLevel: 0
+  storyText: 'Checking illumination...
+
+    ...
+
+    ...
+
+    ...'
+  description: 
+  character: {fileID: 2109630365}
+  portrait: {fileID: 21300000, guid: f991601f0d81aa644b7384cfcc31f466, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &617275449
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 98
+  errorMessage: 
+  indentLevel: 0
+  storyText: 'Testing pumps...
+
+    ...
+
+    ...
+
+    ...'
+  description: 
+  character: {fileID: 2109630365}
+  portrait: {fileID: 21300000, guid: f991601f0d81aa644b7384cfcc31f466, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &617275450
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 97
+  errorMessage: 
+  indentLevel: 0
+  storyText: '...
+
+    ...
+
+    ...
+
+    Diagnostics complete.'
+  description: 
+  character: {fileID: 2109630365}
+  portrait: {fileID: 21300000, guid: f991601f0d81aa644b7384cfcc31f466, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &617275451
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 96
+  errorMessage: 
+  indentLevel: 0
+  storyText: 'Evaluating filtration units...
+
+    ...
+
+    ...
+
+    ...'
+  description: 
+  character: {fileID: 2109630365}
+  portrait: {fileID: 21300000, guid: f991601f0d81aa644b7384cfcc31f466, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &617275452
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 95
+  errorMessage: 
+  indentLevel: 0
+  storyText: 'Measuring ph...
+
+    ...
+
+    ...
+
+    ...'
+  description: 
+  character: {fileID: 2109630365}
+  portrait: {fileID: 21300000, guid: f991601f0d81aa644b7384cfcc31f466, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &617275453
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 94
+  errorMessage: 
+  indentLevel: 0
+  storyText: 'Performing diagnostics...
+
+    ...
+
+    ...
+
+    ...'
+  description: 
+  character: {fileID: 2109630365}
+  portrait: {fileID: 21300000, guid: f991601f0d81aa644b7384cfcc31f466, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &617275454
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 93
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 123292806}
+--- !u!114 &617275455
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b097b9790a8a1456a86bc4d322b487db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 92
+  errorMessage: 
+  indentLevel: 1
+  menuDialog: {fileID: 1637694385}
+--- !u!114 &617275456
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 91
+  errorMessage: 
+  indentLevel: 1
+  text: Skip diagnostics
+  description: 
+  targetBlock: {fileID: 617275459}
+  hideIfVisited: 0
+  setMenuDialog: {fileID: 0}
+--- !u!114 &617275457
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 90
+  errorMessage: 
+  indentLevel: 1
+  text: Perform diagnostics
+  description: 
+  targetBlock: {fileID: 617275458}
+  hideIfVisited: 0
+  setMenuDialog: {fileID: 0}
+--- !u!114 &617275458
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 219.873596
+    y: 13.9510803
+    width: 122
+    height: 40
+  itemId: 89
+  blockName: DiagnosticsY
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 617275467}
+  - {fileID: 617275454}
+  - {fileID: 617275444}
+  - {fileID: 617275453}
+  - {fileID: 617275452}
+  - {fileID: 617275451}
+  - {fileID: 617275449}
+  - {fileID: 617275448}
+  - {fileID: 617275450}
+  - {fileID: 617275447}
+  - {fileID: 617275443}
+  - {fileID: 617275442}
+--- !u!114 &617275459
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 216.873596
+    y: 59.9510803
+    width: 123
+    height: 40
+  itemId: 88
+  blockName: DiagnosticsN
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+--- !u!114 &617275460
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 87
+  errorMessage: 
+  indentLevel: 1
+  storyText: Life support systems performing at 94% efficiency. Would you like to
+    perform diagnostics?
+  description: 
+  character: {fileID: 2109630365}
+  portrait: {fileID: 21300000, guid: 5c729a31f76071e46a10868fdbbef5cb, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 123292806}
+--- !u!114 &617275461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 112
+  errorMessage: 
+  indentLevel: 0
+  targetFlowchart: {fileID: 617275355}
+  targetBlock: {fileID: 617275438}
+  callMode: 0
+--- !u!114 &617275462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 111
+  errorMessage: 
+  indentLevel: 0
+  variable: {fileID: 617275415}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 3
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &617275463
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 110
+  errorMessage: 
+  indentLevel: 0
+  storyText: Life support systems diagnostics and maintenance complete. Operational
+    efficiency returned to 98%.
+  description: 
+  character: {fileID: 2109630365}
+  portrait: {fileID: 21300000, guid: 5c729a31f76071e46a10868fdbbef5cb, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &617275464
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 109
+  errorMessage: 
+  indentLevel: 0
+  storyText: 'Replacing the filters now.
+
+    ...
+
+    ...
+
+    ...'
+  description: 
+  character: {fileID: 2109630365}
+  portrait: {fileID: 21300000, guid: 5c729a31f76071e46a10868fdbbef5cb, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &617275465
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b097b9790a8a1456a86bc4d322b487db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 108
+  errorMessage: 
+  indentLevel: 0
+  menuDialog: {fileID: 1637694385}
+--- !u!114 &617275466
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 107
+  errorMessage: 
+  indentLevel: 0
+  sayDialog: {fileID: 123292806}
+--- !u!114 &617275467
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 617275348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 106
+  errorMessage: 
+  indentLevel: 0
+  variable: {fileID: 617275415}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 2
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!1 &624578156
 GameObject:
   m_ObjectHideFlags: 0
@@ -4071,7 +4885,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 1, b: 0, a: 1}
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 23267e8ee4d65374382a818800bc3ef6, type: 3}
+    m_Font: {fileID: 12800000, guid: 90e5e3c7de4826c449dc1fff9826321d, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 1
@@ -7677,7 +8491,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 1, b: 0, a: 1}
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 23267e8ee4d65374382a818800bc3ef6, type: 3}
+    m_Font: {fileID: 12800000, guid: 90e5e3c7de4826c449dc1fff9826321d, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 1
@@ -7875,7 +8689,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 1, b: 0, a: 1}
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 23267e8ee4d65374382a818800bc3ef6, type: 3}
+    m_Font: {fileID: 12800000, guid: 90e5e3c7de4826c449dc1fff9826321d, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 1
@@ -8207,7 +9021,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 1, b: 0, a: 1}
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 23267e8ee4d65374382a818800bc3ef6, type: 3}
+    m_Font: {fileID: 12800000, guid: 90e5e3c7de4826c449dc1fff9826321d, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 1
@@ -8497,7 +9311,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: .478157431, g: .685317934, b: .970588207, a: 1}
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 79197ecfbc3a4294a89ce589dac02cf2, type: 3}
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 1
@@ -8824,7 +9638,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: .258823544, g: .254901975, b: .262745112, a: 0}
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bb145366ce7024469a5758b08d31802c, type: 3}
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -9005,7 +9819,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 1, b: 0, a: 1}
   m_FontData:
-    m_Font: {fileID: 12800000, guid: cba12a062478ce844a4aedba7a48f76e, type: 3}
+    m_Font: {fileID: 12800000, guid: 90e5e3c7de4826c449dc1fff9826321d, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 1
