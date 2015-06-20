@@ -105,15 +105,7 @@ public class GLDraw
         if (lineMaterial != null)
             return;
 
-        lineMaterial = new Material("Shader \"Lines/Colored Blended\" {" +
-                                    "SubShader { Pass { " +
-                                    "    Blend SrcAlpha OneMinusSrcAlpha " +
-                                    "    ZWrite Off Cull Off Fog { Mode Off } " +
-                                    "    BindChannels {" +
-                                    "      Bind \"vertex\", vertex Bind \"color\", color }" +
-                                    "} } }");
-        lineMaterial.hideFlags = HideFlags.HideAndDontSave;
-        lineMaterial.shader.hideFlags = HideFlags.HideAndDontSave;
+		lineMaterial = Resources.Load("GLLineDraw", typeof(Material)) as Material;
     }
 
     public static void DrawLine(Vector2 start, Vector2 end, Color color, float width)

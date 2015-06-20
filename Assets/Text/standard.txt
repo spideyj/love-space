@@ -1,0 +1,1588 @@
+#SAY.Waking4.1.
+{i}At first, as you slowly rise to awareness, you think you're in the shelter. You automatically reach out for Lili to reassure yourself but your hand finds only the cool plastic lip of the hyper sleep unit and you feel a momentary pang.{/i}
+
+#SAY.Waking4.2.
+Greetings, Mari. 
+We have encountered an anomaly. I would like you to assess the anomaly, and then, at your convenience, please check the life support and ship systems and update the logs.
+
+#SAY.Waking4.29.
+We are currently 3.4 light years from Earth and have completed approximately 15% of our journey to Gliese667Cc.
+
+#SAY.Waking4.148.
+I am sorry, but you do not have the necessary security clearance to view this file.
+
+#SAY.Waking4.417.
+As we are currently unable to view the Earth from our present location, I have loaded an image of Earth from the archives.
+
+#SAY.Waking4.418.You
+{i}As you gaze at the Earth, you wonder what remains of the home you left behind now.{/i}
+
+#SAY.Waking4.419.You
+"Approximately how long has it been since we left, in Earth years?"
+
+#SAY.Waking4.420.
+Approximately 68.6 years have passed since we left Earth.
+
+#SAY.Waking4.423.
+Current view: Earth, archival footage
+
+#SAY.Waking4.459.You
+As you gaze out the viewport at your intended destination, you wonder what you'll find when you get there. This was first on the list for your expedition but it's entirely possible that the planet isn't habitable.
+
+#SAY.Waking4.462.
+Current view: Gliese 667Cc
+
+#MENU.Waking4.16
+View Earth
+
+#MENU.Waking4.17
+View Gliese 667
+
+#MENU.Waking4.50
+Return to default view
+
+#MENU.Waking4.30
+Access personnel file for Leah Caravella
+
+#MENU.Waking4.46
+Access personnel file for Anjali Iyengar
+
+#MENU.Waking4.47
+Access personnel file for Shaheen Rouhani
+
+#MENU.Waking4.48
+Access personnel file for Karen Ito
+
+#MENU.Waking4.52
+Access my personnel file
+
+#SAY.Waking4.87.
+Life support systems performing at 82% efficiency. Would you like to perform diagnostics?
+
+#MENU.Waking4.90
+Perform diagnostics
+
+#MENU.Waking4.91
+Skip diagnostics
+
+#SAY.Waking4.342.
+Life support systems performing at 82% efficiency. Would you like to perform diagnostics?
+
+#MENU.Waking4.343
+Perform diagnostics
+
+#MENU.Waking4.344
+Skip diagnostics
+
+#SAY.Waking4.305.
+Do you wish to replace the filter?
+
+#MENU.Waking4.306
+Replace the filter
+
+#MENU.Waking4.307
+Don't replace the filter
+
+#SAY.Waking4.303.
+Life support systems performing at 98% efficiency. Would you like to perform diagnostics?
+
+#MENU.Waking4.482
+Perform diagnostics
+
+#MENU.Waking4.483
+Skip diagnostics
+
+#SAY.Waking4.485.
+Life support systems performing at 98% efficiency. No further maintenance required at this time.
+
+#SAY.Waking4.191.You
+"What's my status?"
+
+#SAY.Waking4.192.
+You are still experiencing some of the effects of hypersleep, including grogginess and disorientation. It should pass soon.
+
+#SAY.Waking4.193.
+Otherwise, you are in excellent condition.
+
+#SAY.Waking4.195.You
+"What's my status?"
+
+#SAY.Waking4.196.
+You are in excellent condition.
+
+#MENU.Waking4.115
+Access archives
+
+#MENU.Waking4.117
+Record new log
+
+#SAY.Waking4.314.
+Navigational systems performing at 100% efficiency. Would you like to perform diagnostics?
+
+#MENU.Waking4.315
+Perform diagnostics
+
+#MENU.Waking4.316
+Skip diagnostics
+
+#SAY.Waking4.346.
+Navigational systems performing at 100% efficiency. Would you like to perform diagnostics?
+
+#MENU.Waking4.347
+Perform diagnostics
+
+#MENU.Waking4.348
+Skip diagnostics
+
+#SAY.Waking4.322.
+Navigational systems performing at 100% efficiency. Diagnostics have returned no errors.
+
+#SAY.Waking4.151.
+I am sorry, but you do not have the necessary security clearance to view this file.
+
+#SAY.Waking4.153.
+I am sorry, but you do not have the necessary security clearance to view this file.
+
+#SAY.Waking4.155.
+I am sorry, but you do not have the necessary security clearance to view this file.
+
+#SAY.Waking4.441.
+[TODO]
+
+#SAY.Waking4.157.
+Name: Mari Loi
+Age: 32
+Title: Engineer
+
+#MENU.Waking4.124
+Begin recording log
+
+#MENU.Waking4.130
+Continue recording log
+
+#MENU.Waking4.133
+Continue recording log
+
+#SAY.Waking4.81.
+Select an option from the control panel
+
+#SAY.Waking4.85.You
+"I thought you were supposed to wake Leah too?"
+
+#SAY.Waking4.160.
+Unfortunately, there was a malfunction in the navigational system and I had to wake her early in order to correct it.
+
+#SAY.Waking4.181.
+We should return to the normal crew pair rotation after the next sleep cycle.
+
+#SAY.Waking4.182.You
+"Understood. 
+What's your current status?"
+
+#SAY.Waking4.183.
+Operating within expected parameters, Mari.
+
+#SAY.Waking4.187.You
+"What's your current status?"
+
+#SAY.Waking4.188.
+Operating within expected parameters, Mari.
+
+#SAY.Waking4.161.
+Please ensure that all routine maintenance has been performed before returning to hypersleep.
+
+#MENU.Waking4.164
+Return to hypersleep
+
+#MENU.Waking4.168
+Not yet
+
+#SAY.Waking4.308.
+Performing these diagnostics is part of routine maintenance which is included in your duties for this mission. Are you sure you do not wish to perform diagnostics at this time?
+
+#MENU.Waking4.309
+Perform diagnostics
+
+#MENU.Waking4.310
+Skip diagnostics
+
+#SAY.Waking4.94.
+Performing diagnostics...
+...
+...
+...
+
+#SAY.Waking4.95.
+Measuring ph...
+...
+...
+...
+
+#SAY.Waking4.96.
+Evaluating filtration units...
+...
+...
+...
+
+#SAY.Waking4.98.
+Testing pumps...
+...
+...
+...
+
+#SAY.Waking4.99.
+Checking illumination...
+...
+...
+...
+
+#SAY.Waking4.97.
+...
+...
+...
+Diagnostics complete.
+
+#SAY.Waking4.100.
+Mari, I have found a minor issue with our life support systems. One of the filters is performing below expected parameters. Would you like me to replace it?
+
+#MENU.Waking4.104
+Replace the filter
+
+#MENU.Waking4.105
+Don't replace the filter
+
+#SAY.Waking4.109.
+Replacing the filters now.
+...
+...
+...
+
+#SAY.Waking4.110.
+Life support systems diagnostics and maintenance complete. Operational efficiency returned to 98%.
+
+#SAY.Waking4.189.
+Understood.
+
+#SAY.Waking4.169.
+Are you sure you wish to shut off primary system functions? This includes AI and many secondary monitoring systems.
+
+#MENU.Waking4.172
+Yes, shut it down.
+
+#MENU.Waking4.175
+No, don't shut it down.
+
+#MENU.Waking4.296
+Access the public logs for Leah Caravella
+
+#SAY.Waking4.119.
+Begin recording when ready.
+
+#SAY.Waking4.120.You
+[TODO]
+
+#MENU.Waking4.364
+Continue recording
+
+#MENU.Waking4.365
+Stop recording
+
+#SAY.Waking4.143.
+Begin recording when ready.
+
+#SAY.Waking4.367.You
+[TODO]
+
+#SAY.Waking4.488.You
+I haven't checked on the life support systems yet.
+
+#SAY.Waking4.490.You
+I have performed diagnostics on the life support systems and found that a filter needs to be replaced, although I have not done that yet.
+
+#SAY.Waking4.492.You
+I have performed diagnostics on the life support systems and found that a filter needed to be replaced, so I have done so and everything seems to have returned to normal.
+
+#SAY.Waking4.495.You
+Diagnostics still need to be run on the navigational systems as well.
+
+#SAY.Waking4.497.You
+I have performed diagnostics on the life support systems and found that a filter needs to be replaced, although I have not done that yet.
+
+#MENU.Waking4.377
+Continue recording
+
+#MENU.Waking4.378
+Stop recording
+
+#SAY.Waking4.144.
+Begin recording when ready.
+
+#SAY.Waking4.380.You
+[TODO]
+
+#SAY.Waking4.386.
+Returning you to hypersleep now.
+
+#SAY.Waking4.329.
+Running standards systems checks...
+...
+...
+...
+
+#SAY.Waking4.334.
+...
+...
+...
+Diagnostics complete.
+
+#SAY.Waking4.349.
+Navigational systems performing at 100% efficiency. Diagnostics have returned no errors.
+
+#SAY.Waking4.337.
+Performing these diagnostics is part of routine maintenance which is included in your duties for this mission. Are you sure you do not wish to perform diagnostics at this time?
+
+#MENU.Waking4.338
+Perform diagnostics
+
+#MENU.Waking4.339
+Skip diagnostics
+
+#SAY.Waking4.468.
+Performing diagnostics...
+...
+...
+...
+
+#SAY.Waking4.469.
+Measuring ph...
+...
+...
+...
+
+#SAY.Waking4.470.
+Evaluating filtration units...
+...
+...
+...
+
+#SAY.Waking4.471.
+Testing pumps...
+...
+...
+...
+
+#SAY.Waking4.472.
+Checking illumination...
+...
+...
+...
+
+#SAY.Waking4.473.
+...
+...
+...
+Diagnostics complete.
+
+#SAY.Waking4.474.
+Life support systems performing at 98% efficiency. No further maintenance required at this time.
+
+#SAY.Waking4.478.
+Performing these diagnostics is part of routine maintenance which is included in your duties for this mission. Are you sure you do not wish to perform diagnostics at this time?
+
+#MENU.Waking4.479
+Perform diagnostics
+
+#MENU.Waking4.480
+Skip diagnostics
+
+#SAY.Waking2.1.You
+{i}Once again as you return to consciousness, you catch yourself reaching Lili. You have the vague sense that you may have dreamed of her again while in hypersleep...{/i}
+
+#SAY.Waking2.522.
+Greetings, Mari. 
+We have encountered an anomaly.
+
+#SAY.Waking2.2.
+We have encountered an anomaly.
+
+#SAY.Waking2.523.
+I would like you to assess the anomaly, and then, at your convenience, please check the life support and ship systems and update the logs.
+
+#SAY.Waking2.29.
+We are currently 7.72 light years from Earth and have completed approximately 34% of our journey to Gliese667Cc.
+
+#SAY.Waking2.148.
+I am sorry, but you do not have the necessary security clearance to view this file.
+
+#SAY.Waking2.417.
+As we are currently unable to view the Earth from our present location, I have loaded an image of Earth from the archives.
+
+#SAY.Waking2.418.You
+{i}As you gaze at the Earth, you wonder what remains of the home you left behind now.{/i}
+
+#SAY.Waking2.419.You
+"Approximately how long has it been since we left, in Earth years?"
+
+#SAY.Waking2.420.
+Approximately 68.6 years have passed since we left Earth.
+
+#SAY.Waking2.423.
+Current view: Earth, archival footage
+
+#SAY.Waking2.459.You
+As you gaze out the viewport at your intended destination, you wonder what you'll find when you get there. This was first on the list for your expedition but it's entirely possible that the planet isn't habitable.
+
+#SAY.Waking2.462.
+Current view: Gliese 667Cc
+
+#MENU.Waking2.16
+View Earth
+
+#MENU.Waking2.17
+View Gliese 667
+
+#MENU.Waking2.50
+Return to default view
+
+#MENU.Waking2.30
+Access personnel file for Leah Caravella
+
+#MENU.Waking2.46
+Access personnel file for Anjali Iyengar
+
+#MENU.Waking2.47
+Access personnel file for Shaheen Rouhani
+
+#MENU.Waking2.48
+Access personnel file for Karen Ito
+
+#MENU.Waking2.52
+Access my personnel file
+
+#SAY.Waking2.539.
+Life support systems performing at 98% efficiency. No further maintenance required at this time.
+
+#SAY.Waking2.549.
+Do you wish to replace the filter?
+
+#MENU.Waking2.550
+Replace the filter
+
+#MENU.Waking2.551
+Don't replace the filter
+
+#SAY.Waking2.303.
+Life support systems performing at 98% efficiency. Would you like to perform diagnostics?
+
+#MENU.Waking2.482
+Perform diagnostics
+
+#MENU.Waking2.483
+Skip diagnostics
+
+#SAY.Waking2.531.
+Life support systems performing at 82% efficiency. Would you like to perform diagnostics?
+
+#MENU.Waking2.532
+Perform diagnostics
+
+#MENU.Waking2.533
+Skip diagnostics
+
+#SAY.Waking2.191.You
+"What's my status?"
+
+#SAY.Waking2.192.
+You are still experiencing some of the effects of hypersleep, including grogginess and disorientation. It should pass soon.
+
+#SAY.Waking2.193.
+Otherwise, you are in excellent condition.
+
+#SAY.Waking2.195.You
+"What's my status?"
+
+#SAY.Waking2.196.
+You are in excellent condition.
+
+#MENU.Waking2.115
+Access archives
+
+#MENU.Waking2.117
+Record new log
+
+#SAY.Waking2.314.
+Navigational systems performing at 100% efficiency. Would you like to perform diagnostics?
+
+#MENU.Waking2.315
+Perform diagnostics
+
+#MENU.Waking2.316
+Skip diagnostics
+
+#SAY.Waking2.346.
+Navigational systems performing at 100% efficiency. Would you like to perform diagnostics?
+
+#MENU.Waking2.347
+Perform diagnostics
+
+#MENU.Waking2.348
+Skip diagnostics
+
+#SAY.Waking2.322.
+Navigational systems performing at 100% efficiency. Diagnostics have returned no errors.
+
+#SAY.Waking2.151.
+I am sorry, but you do not have the necessary security clearance to view this file.
+
+#SAY.Waking2.153.
+I am sorry, but you do not have the necessary security clearance to view this file.
+
+#SAY.Waking2.155.
+I am sorry, but you do not have the necessary security clearance to view this file.
+
+#SAY.Waking2.441.
+[TODO]
+
+#SAY.Waking2.157.
+Name: Mari Loi
+Age: 32
+Title: Engineer
+
+#MENU.Waking2.124
+Begin recording log
+
+#MENU.Waking2.130
+Continue recording log
+
+#MENU.Waking2.133
+Continue recording log
+
+#SAY.Waking2.81.
+Select an option from the control panel
+
+#SAY.Waking2.85.You
+"I thought you were supposed to wake Leah too?"
+
+#SAY.Waking2.160.
+Unfortunately, there was a malfunction in the navigational system and I had to wake her early in order to correct it.
+
+#SAY.Waking2.181.
+We should return to the normal crew pair rotation after the next sleep cycle.
+
+#SAY.Waking2.182.You
+"Understood. 
+What's your current status?"
+
+#SAY.Waking2.183.
+Operating within expected parameters, Mari.
+
+#SAY.Waking2.187.You
+"What's your current status?"
+
+#SAY.Waking2.188.
+Operating within expected parameters, Mari.
+
+#SAY.Waking2.161.
+Please ensure that all routine maintenance has been performed before returning to hypersleep.
+
+#MENU.Waking2.164
+Return to hypersleep
+
+#MENU.Waking2.168
+Not yet
+
+#SAY.Waking2.308.
+Performing these diagnostics is part of routine maintenance which is included in your duties for this mission. Are you sure you do not wish to perform diagnostics at this time?
+
+#MENU.Waking2.309
+Perform diagnostics
+
+#MENU.Waking2.310
+Skip diagnostics
+
+#SAY.Waking2.94.
+Performing diagnostics...
+...
+...
+...
+
+#SAY.Waking2.95.
+Measuring ph...
+...
+...
+...
+
+#SAY.Waking2.96.
+Evaluating filtration units...
+...
+...
+...
+
+#SAY.Waking2.98.
+Testing pumps...
+...
+...
+...
+
+#SAY.Waking2.99.
+Checking illumination...
+...
+...
+...
+
+#SAY.Waking2.97.
+...
+...
+...
+Diagnostics complete.
+
+#SAY.Waking2.100.
+Mari, I have found a minor issue with our life support systems. One of the filters is performing below expected parameters. Would you like me to replace it?
+
+#MENU.Waking2.104
+Replace the filter
+
+#MENU.Waking2.105
+Don't replace the filter
+
+#SAY.Waking2.109.
+Replacing the filters now.
+...
+...
+...
+
+#SAY.Waking2.110.
+Life support systems diagnostics and maintenance complete. Operational efficiency returned to 98%.
+
+#SAY.Waking2.189.
+Understood.
+
+#SAY.Waking2.169.
+Are you sure you wish to shut off primary system functions? This includes AI and many secondary monitoring systems.
+
+#MENU.Waking2.172
+Yes, shut it down.
+
+#MENU.Waking2.175
+No, don't shut it down.
+
+#MENU.Waking2.296
+Access the public logs for Leah Caravella
+
+#MENU.Waking2.560
+Access my personal logs
+
+#SAY.Waking2.119.
+Begin recording when ready.
+
+#SAY.Waking2.120.You
+[TODO]
+
+#MENU.Waking2.364
+Continue recording
+
+#MENU.Waking2.365
+Stop recording
+
+#SAY.Waking2.143.
+Begin recording when ready.
+
+#SAY.Waking2.367.You
+[TODO]
+
+#SAY.Waking2.488.You
+I haven't checked on the life support systems yet.
+
+#SAY.Waking2.490.You
+I have performed diagnostics on the life support systems and found that a filter needs to be replaced, although I have not done that yet.
+
+#SAY.Waking2.492.You
+I have performed diagnostics on the life support systems and found that a filter needed to be replaced, so I have done so and everything seems to have returned to normal.
+
+#SAY.Waking2.495.You
+Diagnostics still need to be run on the navigational systems as well.
+
+#SAY.Waking2.497.You
+I have performed diagnostics on the life support systems and found that a filter needs to be replaced, although I have not done that yet.
+
+#MENU.Waking2.377
+Continue recording
+
+#MENU.Waking2.378
+Stop recording
+
+#SAY.Waking2.144.
+Begin recording when ready.
+
+#SAY.Waking2.380.You
+[TODO]
+
+#SAY.Waking2.386.
+Returning you to hypersleep now.
+
+#SAY.Waking2.329.
+Running standards systems checks...
+...
+...
+...
+
+#SAY.Waking2.334.
+...
+...
+...
+Diagnostics complete.
+
+#SAY.Waking2.349.
+Navigational systems performing at 100% efficiency. Diagnostics have returned no errors.
+
+#SAY.Waking2.337.
+Performing these diagnostics is part of routine maintenance which is included in your duties for this mission. Are you sure you do not wish to perform diagnostics at this time?
+
+#MENU.Waking2.338
+Perform diagnostics
+
+#MENU.Waking2.339
+Skip diagnostics
+
+#SAY.Waking2.468.
+Performing diagnostics...
+...
+...
+...
+
+#SAY.Waking2.469.
+Measuring ph...
+...
+...
+...
+
+#SAY.Waking2.470.
+Evaluating filtration units...
+...
+...
+...
+
+#SAY.Waking2.471.
+Testing pumps...
+...
+...
+...
+
+#SAY.Waking2.472.
+Checking illumination...
+...
+...
+...
+
+#SAY.Waking2.473.
+...
+...
+...
+Diagnostics complete.
+
+#SAY.Waking2.474.
+Life support systems performing at 98% efficiency. No further maintenance required at this time.
+
+#SAY.Waking2.478.
+Performing these diagnostics is part of routine maintenance which is included in your duties for this mission. Are you sure you do not wish to perform diagnostics at this time?
+
+#MENU.Waking2.479
+Perform diagnostics
+
+#MENU.Waking2.480
+Skip diagnostics
+
+#SAY.Waking2.562.
+I'm sorry, but I'm unable to access any personal logs for you, Mari. Are you sure you recorded them?
+
+#MENU.Waking2.564
+Record new log
+
+#MENU.Waking2.565
+Access archives
+
+#MENU.Waking2.566
+Perform other duties
+
+#SAY.Waking2.568.
+This is what you previously logged:
+
+#SAY.Waking1.1.You
+{i}At first, as you slowly rise to awareness, you think you're in the shelter. You automatically reach out for Lili to reassure yourself but your hand finds only the cool plastic lip of the hyper sleep unit and you feel a momentary pang.{/i}
+
+#SAY.Waking1.2.
+Greetings, Mari. 
+
+At your convenience, please check the life support and ship systems and update the logs.
+
+#SAY.Waking1.29.
+We are currently 3.4 light years from Earth and have completed approximately 15% of our journey to Gliese667Cc.
+
+#SAY.Waking1.148.
+I am sorry, but you do not have the necessary security clearance to view this file.
+
+#SAY.Waking1.207.
+As we are currently unable to view the Earth from our present location, I have loaded an image of Earth from the archives.
+
+#SAY.Waking1.211.You
+{i}As you gaze at the Earth, you wonder what remains of the home you left behind now.{/i}
+
+#SAY.Waking1.212.You
+"Approximately how long has it been since we left, in Earth years?"
+
+#SAY.Waking1.213.
+Approximately 68.6 years have passed since we left Earth.
+
+#SAY.Waking1.209.
+Current view: Earth, archival footage
+
+#SAY.Waking1.32.You
+As you gaze out the viewport at your intended destination, you wonder what you'll find when you get there. This was first on the list for your expedition but it's entirely possible that the planet isn't habitable.
+
+#SAY.Waking1.199.
+Current view: Gliese 667Cc
+
+#MENU.Waking1.16
+View Earth
+
+#MENU.Waking1.17
+View Gliese 667
+
+#MENU.Waking1.50
+Return to default view
+
+#MENU.Waking1.30
+Access personnel file for Leah Caravella
+
+#MENU.Waking1.46
+Access personnel file for Anjali Iyengar
+
+#MENU.Waking1.47
+Access personnel file for Shaheen Rouhani
+
+#MENU.Waking1.48
+Access personnel file for Karen Ito
+
+#MENU.Waking1.52
+Access my personnel file
+
+#SAY.Waking1.87.
+Life support systems performing at 94% efficiency. Would you like to perform diagnostics?
+
+#MENU.Waking1.90
+Perform diagnostics
+
+#MENU.Waking1.91
+Skip diagnostics
+
+#SAY.Waking1.305.
+Life support systems performing at 94% efficiency. Do you wish to replace the filter?
+
+#MENU.Waking1.306
+Replace the filter
+
+#MENU.Waking1.407
+Don't replace the filter
+
+#SAY.Waking1.411.
+Life support systems performing at 98% efficiency. No further maintenance is required at this time.
+
+#SAY.Waking1.191.You
+"What's my status?"
+
+#SAY.Waking1.192.
+You are still experiencing some of the effects of hypersleep, including grogginess and disorientation. It should pass soon.
+
+#SAY.Waking1.193.
+Otherwise, you are in excellent condition.
+
+#SAY.Waking1.195.You
+"What's my status?"
+
+#SAY.Waking1.196.
+You are in excellent condition.
+
+#MENU.Waking1.115
+Access archives
+
+#MENU.Waking1.117
+Record new log
+
+#SAY.Waking1.314.
+Navigational systems performing at 100% efficiency. Would you like to perform diagnostics?
+
+#MENU.Waking1.315
+Perform diagnostics
+
+#MENU.Waking1.316
+Skip diagnostics
+
+#SAY.Waking1.322.
+Navigational systems performing at 100% efficiency. Diagnostics have returned no errors.
+
+#SAY.Waking1.151.
+I am sorry, but you do not have the necessary security clearance to view this file.
+
+#SAY.Waking1.153.
+I am sorry, but you do not have the necessary security clearance to view this file.
+
+#SAY.Waking1.155.
+I am sorry, but you do not have the necessary security clearance to view this file.
+
+#SAY.Waking1.241.
+You are currently looking at a view of near space from the fore of the ship.
+
+#SAY.Waking1.157.
+Name: Mari Loi
+Age: 32
+Title: Engineer
+
+#MENU.Waking1.124
+Begin recording log
+
+#MENU.Waking1.130
+Continue recording log
+
+#MENU.Waking1.133
+Continue recording log
+
+#SAY.Waking1.81.
+Select an option from the control panel
+
+#SAY.Waking1.85.You
+"I thought you were supposed to wake Leah too?"
+
+#SAY.Waking1.160.
+Unfortunately, there was a malfunction in the navigational system and I had to wake her early in order to correct it.
+
+#SAY.Waking1.181.
+We should return to the normal crew pair rotation after the next sleep cycle.
+
+#SAY.Waking1.182.You
+"Understood. 
+What's your current status?"
+
+#SAY.Waking1.183.
+Operating within expected parameters, Mari.
+
+#SAY.Waking1.187.You
+"What's your current status?"
+
+#SAY.Waking1.188.
+Operating within expected parameters, Mari.
+
+#SAY.Waking1.161.
+Please ensure that all routine maintenance has been performed before returning to hypersleep.
+
+#MENU.Waking1.164
+Return to hypersleep
+
+#MENU.Waking1.168
+Not yet
+
+#SAY.Waking1.308.
+Performing these diagnostics is part of routine maintenance which is included in your duties for this mission. Are you sure you do not wish to perform diagnostics at this time?
+
+#MENU.Waking1.309
+Perform diagnostics
+
+#MENU.Waking1.310
+Skip diagnostics
+
+#SAY.Waking1.94.
+Performing diagnostics...
+...
+...
+...
+
+#SAY.Waking1.95.
+Measuring ph...
+...
+...
+...
+
+#SAY.Waking1.96.
+Evaluating filtration units...
+...
+...
+...
+
+#SAY.Waking1.98.
+Testing pumps...
+...
+...
+...
+
+#SAY.Waking1.99.
+Checking illumination...
+...
+...
+...
+
+#SAY.Waking1.97.
+...
+...
+...
+Diagnostics complete.
+
+#SAY.Waking1.100.
+Mari, I have found a minor issue with our life support systems. One of the filters is performing below expected parameters. Would you like me to replace it?
+
+#MENU.Waking1.104
+Replace the filter
+
+#MENU.Waking1.105
+Don't replace the filter
+
+#SAY.Waking1.109.
+Replacing the filters now.
+...
+...
+...
+
+#SAY.Waking1.110.
+Life support systems diagnostics and maintenance complete. Operational efficiency returned to 98%.
+
+#SAY.Waking1.189.
+Understood.
+
+#SAY.Waking1.169.
+Are you sure you wish to shut off primary system functions? This includes AI and many secondary monitoring systems.
+
+#MENU.Waking1.172
+Yes, shut it down.
+
+#MENU.Waking1.175
+No, don't shut it down.
+
+#MENU.Waking1.296
+Access the public logs for Leah Caravella
+
+#SAY.Waking1.119.
+Begin recording when ready.
+
+#SAY.Waking1.120.You
+"It's always so hard when you wake and think you're somewhere else..."
+
+#SAY.Waking1.134.You
+"It takes so long to shake off. It's like existing in two spaces at once, the memory that you're not quite sure is real, and the present also feels distant, like a dream."
+
+#SAY.Waking1.121.You
+"I woke and I thought Lili was next to me and I reached out for her, but she wasn't there."
+
+#SAY.Waking1.135.You
+"Anyway, enough about that."
+
+#SAY.Waking1.147.You
+"As we continue towards our destination, the ship's AI will wake each of us periodically to check on the ship's systems and ensure everything is operating within parameters."
+
+#MENU.Waking1.364
+Continue recording
+
+#MENU.Waking1.365
+Stop recording
+
+#SAY.Waking1.143.
+Begin recording when ready.
+
+#SAY.Waking1.367.You
+"I wonder how things are going back home. At this point, it's likely that most of the people I knew are gone..."
+
+#SAY.Waking1.369.You
+"What a bleak thought."
+
+#SAY.Waking1.368.You
+"But it's not like there was anything keeping me there, not any more. Not with Lili gone."
+
+#SAY.Waking1.370.You
+"I guess she's {i}really{/i} gone now, not just out of my life. It all seems so unreal now."
+
+#SAY.Waking1.371.You
+"I suppose most relationships developed under those circumstances wouldn't last in the long run. I mean, we both thought, literally, that we were the last ones left."
+
+#SAY.Waking1.372.You
+"When it all started, everything was chaos. I don't know how I made it to the shelter. I don't know why the rest of my family didn't, but there she was and we were the only ones there."
+
+#SAY.Waking1.373.You
+"It's a wonder we didn't kill each other, those years alone together in the shelter. We got really good at entertaining ourselves, and each other."
+
+#SAY.Waking1.374.You
+"We talked about suicide, from time to time. We both agreed that if we were gonna do it, we'd go together. One of many promises that we didn't keep, I guess."
+
+#SAY.Waking1.375.You
+"I imagine we'd have gone through with it eventually, if we hadn't been found within a few years, hadn't connected with what was left of humanity at that point."
+
+#SAY.Waking1.376.You
+"I'm glad for that, even though it made our parting inevitable, even though I still miss her."
+
+#MENU.Waking1.377
+Continue recording
+
+#MENU.Waking1.378
+Stop recording
+
+#SAY.Waking1.144.
+Begin recording when ready.
+
+#SAY.Waking1.380.You
+"I wonder what we'll find when we get there. Gliese 667Cc. It was one of the closest systems with a planet potentially capable of sustaining us."
+
+#SAY.Waking1.381.You
+"What if someone's already there? Will they welcome us? Or will they shoot us on sight?"
+
+#SAY.Waking1.382.You
+"It would be really strange and sad if that's what it came to, this sad and lonely last ditch effort to make a future for humanity."
+
+#SAY.Waking1.400.You
+"Anyway, I should probably wrap this up now."
+
+#SAY.Waking1.389.You
+I haven't checked on the life support systems yet.
+
+#SAY.Waking1.391.You
+I have performed diagnostics on the life support systems and found that a filter needs to be replaced, although I have not done that yet.
+
+#SAY.Waking1.393.You
+I have performed diagnostics on the life support systems and found that a filter needed to be replaced, so I have done so and everything seems to have returned to normal.
+
+#SAY.Waking1.396.You
+Diagnostics still need to be run on the navigational systems as well.
+
+#SAY.Waking1.398.You
+I have performed diagnostics on the life support systems and found that a filter needs to be replaced, although I have not done that yet.
+
+#SAY.Waking1.386.
+Returning you to hypersleep now.
+
+#SAY.Waking1.297.
+17-09-2132
+Leah Caravella
+There was a slight malfunction in the navigational systems that was causing us to begin to deviate from our course.
+
+#SAY.Waking1.298.
+The problem appears to have been caused by a slight miscalculation in the impact of passing relatively near to large masses on our trajectory. After re-examining our calcuations, I believe I have addressed the problem.
+
+#SAY.Waking1.299.
+I have also performed all of the routine maintenance checks; all systems check out. Nothing else to report at this time.
+
+#SAY.Waking1.329.
+Running standards systems checks...
+...
+...
+...
+
+#SAY.Waking1.334.
+...
+...
+...
+Diagnostics complete.
+
+#SAY.Waking1.349.
+Navigational systems performing at 100% efficiency. Diagnostics have returned no errors.
+
+#SAY.Waking1.337.
+Performing these diagnostics is part of routine maintenance which is included in your duties for this mission. Are you sure you do not wish to perform diagnostics at this time?
+
+#MENU.Waking1.338
+Perform diagnostics
+
+#MENU.Waking1.339
+Skip diagnostics
+
+#SAY.Waking3.1.
+{i}At first, as you slowly rise to awareness, you think you're in the shelter. You automatically reach out for Lili to reassure yourself but your hand finds only the cool plastic lip of the hyper sleep unit and you feel a momentary pang.{/i}
+
+#SAY.Waking3.2.
+Greetings, Mari. 
+We have encountered an anomaly. I would like you to assess the anomaly, and then, at your convenience, please check the life support and ship systems and update the logs.
+
+#SAY.Waking3.29.
+We are currently 3.4 light years from Earth and have completed approximately 15% of our journey to Gliese667Cc.
+
+#SAY.Waking3.148.
+I am sorry, but you do not have the necessary security clearance to view this file.
+
+#SAY.Waking3.417.
+As we are currently unable to view the Earth from our present location, I have loaded an image of Earth from the archives.
+
+#SAY.Waking3.418.You
+{i}As you gaze at the Earth, you wonder what remains of the home you left behind now.{/i}
+
+#SAY.Waking3.419.You
+"Approximately how long has it been since we left, in Earth years?"
+
+#SAY.Waking3.420.
+Approximately 68.6 years have passed since we left Earth.
+
+#SAY.Waking3.423.
+Current view: Earth, archival footage
+
+#SAY.Waking3.459.You
+As you gaze out the viewport at your intended destination, you wonder what you'll find when you get there. This was first on the list for your expedition but it's entirely possible that the planet isn't habitable.
+
+#SAY.Waking3.462.
+Current view: Gliese 667Cc
+
+#MENU.Waking3.16
+View Earth
+
+#MENU.Waking3.17
+View Gliese 667
+
+#MENU.Waking3.50
+Return to default view
+
+#MENU.Waking3.30
+Access personnel file for Leah Caravella
+
+#MENU.Waking3.46
+Access personnel file for Anjali Iyengar
+
+#MENU.Waking3.47
+Access personnel file for Shaheen Rouhani
+
+#MENU.Waking3.48
+Access personnel file for Karen Ito
+
+#MENU.Waking3.52
+Access my personnel file
+
+#SAY.Waking3.87.
+Life support systems performing at 82% efficiency. Would you like to perform diagnostics?
+
+#MENU.Waking3.90
+Perform diagnostics
+
+#MENU.Waking3.91
+Skip diagnostics
+
+#SAY.Waking3.342.
+Life support systems performing at 82% efficiency. Would you like to perform diagnostics?
+
+#MENU.Waking3.343
+Perform diagnostics
+
+#MENU.Waking3.344
+Skip diagnostics
+
+#SAY.Waking3.305.
+Do you wish to replace the filter?
+
+#MENU.Waking3.306
+Replace the filter
+
+#MENU.Waking3.307
+Don't replace the filter
+
+#SAY.Waking3.303.
+Life support systems performing at 98% efficiency. Would you like to perform diagnostics?
+
+#MENU.Waking3.482
+Perform diagnostics
+
+#MENU.Waking3.483
+Skip diagnostics
+
+#SAY.Waking3.485.
+Life support systems performing at 98% efficiency. No further maintenance required at this time.
+
+#SAY.Waking3.191.You
+"What's my status?"
+
+#SAY.Waking3.192.
+You are still experiencing some of the effects of hypersleep, including grogginess and disorientation. It should pass soon.
+
+#SAY.Waking3.193.
+Otherwise, you are in excellent condition.
+
+#SAY.Waking3.195.You
+"What's my status?"
+
+#SAY.Waking3.196.
+You are in excellent condition.
+
+#MENU.Waking3.115
+Access archives
+
+#MENU.Waking3.117
+Record new log
+
+#SAY.Waking3.314.
+Navigational systems performing at 100% efficiency. Would you like to perform diagnostics?
+
+#MENU.Waking3.315
+Perform diagnostics
+
+#MENU.Waking3.316
+Skip diagnostics
+
+#SAY.Waking3.346.
+Navigational systems performing at 100% efficiency. Would you like to perform diagnostics?
+
+#MENU.Waking3.347
+Perform diagnostics
+
+#MENU.Waking3.348
+Skip diagnostics
+
+#SAY.Waking3.322.
+Navigational systems performing at 100% efficiency. Diagnostics have returned no errors.
+
+#SAY.Waking3.151.
+I am sorry, but you do not have the necessary security clearance to view this file.
+
+#SAY.Waking3.153.
+I am sorry, but you do not have the necessary security clearance to view this file.
+
+#SAY.Waking3.155.
+I am sorry, but you do not have the necessary security clearance to view this file.
+
+#SAY.Waking3.441.
+[TODO]
+
+#SAY.Waking3.157.
+Name: Mari Loi
+Age: 32
+Title: Engineer
+
+#MENU.Waking3.124
+Begin recording log
+
+#MENU.Waking3.130
+Continue recording log
+
+#MENU.Waking3.133
+Continue recording log
+
+#SAY.Waking3.81.
+Select an option from the control panel
+
+#SAY.Waking3.85.You
+"I thought you were supposed to wake Leah too?"
+
+#SAY.Waking3.160.
+Unfortunately, there was a malfunction in the navigational system and I had to wake her early in order to correct it.
+
+#SAY.Waking3.181.
+We should return to the normal crew pair rotation after the next sleep cycle.
+
+#SAY.Waking3.182.You
+"Understood. 
+What's your current status?"
+
+#SAY.Waking3.183.
+Operating within expected parameters, Mari.
+
+#SAY.Waking3.187.You
+"What's your current status?"
+
+#SAY.Waking3.188.
+Operating within expected parameters, Mari.
+
+#SAY.Waking3.161.
+Please ensure that all routine maintenance has been performed before returning to hypersleep.
+
+#MENU.Waking3.164
+Return to hypersleep
+
+#MENU.Waking3.168
+Not yet
+
+#SAY.Waking3.308.
+Performing these diagnostics is part of routine maintenance which is included in your duties for this mission. Are you sure you do not wish to perform diagnostics at this time?
+
+#MENU.Waking3.309
+Perform diagnostics
+
+#MENU.Waking3.310
+Skip diagnostics
+
+#SAY.Waking3.94.
+Performing diagnostics...
+...
+...
+...
+
+#SAY.Waking3.95.
+Measuring ph...
+...
+...
+...
+
+#SAY.Waking3.96.
+Evaluating filtration units...
+...
+...
+...
+
+#SAY.Waking3.98.
+Testing pumps...
+...
+...
+...
+
+#SAY.Waking3.99.
+Checking illumination...
+...
+...
+...
+
+#SAY.Waking3.97.
+...
+...
+...
+Diagnostics complete.
+
+#SAY.Waking3.100.
+Mari, I have found a minor issue with our life support systems. One of the filters is performing below expected parameters. Would you like me to replace it?
+
+#MENU.Waking3.104
+Replace the filter
+
+#MENU.Waking3.105
+Don't replace the filter
+
+#SAY.Waking3.109.
+Replacing the filters now.
+...
+...
+...
+
+#SAY.Waking3.110.
+Life support systems diagnostics and maintenance complete. Operational efficiency returned to 98%.
+
+#SAY.Waking3.189.
+Understood.
+
+#SAY.Waking3.169.
+Are you sure you wish to shut off primary system functions? This includes AI and many secondary monitoring systems.
+
+#MENU.Waking3.172
+Yes, shut it down.
+
+#MENU.Waking3.175
+No, don't shut it down.
+
+#MENU.Waking3.296
+Access the public logs for Leah Caravella
+
+#SAY.Waking3.119.
+Begin recording when ready.
+
+#SAY.Waking3.120.You
+[TODO]
+
+#MENU.Waking3.364
+Continue recording
+
+#MENU.Waking3.365
+Stop recording
+
+#SAY.Waking3.143.
+Begin recording when ready.
+
+#SAY.Waking3.367.You
+[TODO]
+
+#SAY.Waking3.488.You
+I haven't checked on the life support systems yet.
+
+#SAY.Waking3.490.You
+I have performed diagnostics on the life support systems and found that a filter needs to be replaced, although I have not done that yet.
+
+#SAY.Waking3.492.You
+I have performed diagnostics on the life support systems and found that a filter needed to be replaced, so I have done so and everything seems to have returned to normal.
+
+#SAY.Waking3.495.You
+Diagnostics still need to be run on the navigational systems as well.
+
+#SAY.Waking3.497.You
+I have performed diagnostics on the life support systems and found that a filter needs to be replaced, although I have not done that yet.
+
+#MENU.Waking3.377
+Continue recording
+
+#MENU.Waking3.378
+Stop recording
+
+#SAY.Waking3.144.
+Begin recording when ready.
+
+#SAY.Waking3.380.You
+[TODO]
+
+#SAY.Waking3.386.
+Returning you to hypersleep now.
+
+#SAY.Waking3.329.
+Running standards systems checks...
+...
+...
+...
+
+#SAY.Waking3.334.
+...
+...
+...
+Diagnostics complete.
+
+#SAY.Waking3.349.
+Navigational systems performing at 100% efficiency. Diagnostics have returned no errors.
+
+#SAY.Waking3.337.
+Performing these diagnostics is part of routine maintenance which is included in your duties for this mission. Are you sure you do not wish to perform diagnostics at this time?
+
+#MENU.Waking3.338
+Perform diagnostics
+
+#MENU.Waking3.339
+Skip diagnostics
+
+#SAY.Waking3.468.
+Performing diagnostics...
+...
+...
+...
+
+#SAY.Waking3.469.
+Measuring ph...
+...
+...
+...
+
+#SAY.Waking3.470.
+Evaluating filtration units...
+...
+...
+...
+
+#SAY.Waking3.471.
+Testing pumps...
+...
+...
+...
+
+#SAY.Waking3.472.
+Checking illumination...
+...
+...
+...
+
+#SAY.Waking3.473.
+...
+...
+...
+Diagnostics complete.
+
+#SAY.Waking3.474.
+Life support systems performing at 98% efficiency. No further maintenance required at this time.
+
+#SAY.Waking3.478.
+Performing these diagnostics is part of routine maintenance which is included in your duties for this mission. Are you sure you do not wish to perform diagnostics at this time?
+
+#MENU.Waking3.479
+Perform diagnostics
+
+#MENU.Waking3.480
+Skip diagnostics
+

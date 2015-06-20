@@ -26,6 +26,8 @@ namespace Fungus
 		protected SerializedProperty localizationIdProp;
 		protected SerializedProperty variablesProp;
 
+		protected Texture2D addTexture;
+				
 		protected virtual void OnEnable()
 		{
 			descriptionProp = serializedObject.FindProperty("description");
@@ -35,6 +37,8 @@ namespace Fungus
 			saveSelectionProp = serializedObject.FindProperty("saveSelection");
 			localizationIdProp = serializedObject.FindProperty("localizationId");
 			variablesProp = serializedObject.FindProperty("variables");
+
+			addTexture = Resources.Load("Icons/add_small") as Texture2D;
 		}
 
 		public override void OnInspectorGUI() 
@@ -151,7 +155,7 @@ namespace Fungus
 				plusRect.height = plusHeight;
 
 				if (!Application.isPlaying && 
-				    GUI.Button(plusRect, FungusEditorResources.texAddButton))
+				    GUI.Button(plusRect, addTexture))
 				{
 					GenericMenu menu = new GenericMenu ();
 					List<System.Type> types = FindAllDerivedTypes<Variable>();
