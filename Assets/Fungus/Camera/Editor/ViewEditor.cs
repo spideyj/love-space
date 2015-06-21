@@ -18,7 +18,7 @@ namespace Fungus
 
 		// Draw Views when they're not selected
 #if UNITY_5_0
-		[DrawGizmo(GizmoType.NotInSelectionHierarchy | GizmoType.InSelectionHierarchy)]
+		[DrawGizmo(GizmoType.NotSelected | GizmoType.SelectedOrChild)]
 #else
 		[DrawGizmo(GizmoType.NotInSelectionHierarchy | GizmoType.InSelectionHierarchy)]
 #endif
