@@ -1727,6 +1727,141 @@ RectTransform:
   m_AnchoredPosition: {x: 1.89999998, y: -1.20000005}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: .5, y: .5}
+--- !u!1 &252401367
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 142980, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 252401372}
+  - 114: {fileID: 252401371}
+  - 114: {fileID: 252401370}
+  - 114: {fileID: 252401368}
+  - 114: {fileID: 252401369}
+  m_Layer: 0
+  m_Name: Warp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &252401368
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 252401367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1
+  errorMessage: 
+  indentLevel: 0
+  storyText: '.
+
+    .
+
+    .
+
+    .
+
+    LISTEN'
+  description: 
+  character: {fileID: 1092536952}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &252401369
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 252401367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 252401370}
+  clickableObject: {fileID: 1505683678}
+--- !u!114 &252401370
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 11433304, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 252401367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 67
+    y: 69
+    width: 128
+    height: 40
+  itemId: 0
+  blockName: New Block
+  description: 
+  eventHandler: {fileID: 252401369}
+  commandList:
+  - {fileID: 252401368}
+--- !u!114 &252401371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11430050, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 252401367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollPos: {x: 0, y: 0}
+  variablesScrollPos: {x: 0, y: 0}
+  variablesExpanded: 1
+  blockViewHeight: 400
+  zoom: 1
+  scrollViewRect:
+    serializedVersion: 2
+    x: -343
+    y: -340
+    width: 1114
+    height: 859
+  selectedBlock: {fileID: 252401370}
+  selectedCommands:
+  - {fileID: 252401368}
+  variables: []
+  description: 
+  stepPause: 0
+  colorCommands: 1
+  hideComponents: 1
+  saveSelection: 1
+  localizationId: 
+--- !u!4 &252401372
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 467082, guid: 5e7fbc8d4eb714b279eeeef2262c1e1a, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 252401367}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -491, y: -226, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 851110743}
+  m_RootOrder: 3
 --- !u!1 &258495233
 GameObject:
   m_ObjectHideFlags: 0
@@ -2321,7 +2456,6 @@ GameObject:
   - 114: {fileID: 321827986}
   - 114: {fileID: 321827985}
   - 114: {fileID: 321827976}
-  - 114: {fileID: 321827975}
   - 114: {fileID: 321827962}
   - 114: {fileID: 321827961}
   - 114: {fileID: 321827960}
@@ -2431,9 +2565,6 @@ GameObject:
   - 114: {fileID: 321828090}
   - 114: {fileID: 321828080}
   - 114: {fileID: 321828017}
-  - 114: {fileID: 321828016}
-  - 114: {fileID: 321828015}
-  - 114: {fileID: 321827974}
   - 114: {fileID: 321827973}
   - 114: {fileID: 321827972}
   - 114: {fileID: 321827971}
@@ -2581,8 +2712,6 @@ GameObject:
   - 114: {fileID: 321827950}
   - 114: {fileID: 321827945}
   - 114: {fileID: 321827944}
-  - 114: {fileID: 321827863}
-  - 114: {fileID: 321827861}
   - 114: {fileID: 321828303}
   - 114: {fileID: 321828305}
   - 114: {fileID: 321828304}
@@ -2590,6 +2719,35 @@ GameObject:
   - 114: {fileID: 321828302}
   - 114: {fileID: 321828301}
   - 114: {fileID: 321828300}
+  - 114: {fileID: 321828309}
+  - 114: {fileID: 321828308}
+  - 114: {fileID: 321828307}
+  - 114: {fileID: 321828312}
+  - 114: {fileID: 321828311}
+  - 114: {fileID: 321828310}
+  - 114: {fileID: 321827975}
+  - 114: {fileID: 321828313}
+  - 114: {fileID: 321827863}
+  - 114: {fileID: 321828317}
+  - 114: {fileID: 321828316}
+  - 114: {fileID: 321828315}
+  - 114: {fileID: 321828319}
+  - 114: {fileID: 321828318}
+  - 114: {fileID: 321828333}
+  - 114: {fileID: 321828332}
+  - 114: {fileID: 321828331}
+  - 114: {fileID: 321828330}
+  - 114: {fileID: 321828329}
+  - 114: {fileID: 321828328}
+  - 114: {fileID: 321828327}
+  - 114: {fileID: 321828326}
+  - 114: {fileID: 321828325}
+  - 114: {fileID: 321828324}
+  - 114: {fileID: 321828323}
+  - 114: {fileID: 321828322}
+  - 114: {fileID: 321828321}
+  - 114: {fileID: 321828320}
+  - 114: {fileID: 321827861}
   m_Layer: 0
   m_Name: Waking2
   m_TagString: Untagged
@@ -2621,7 +2779,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollPos: {x: 8.75952148, y: 58.2101135}
+  scrollPos: {x: 192.27597, y: 45.0232544}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 0
   blockViewHeight: 252
@@ -2632,7 +2790,7 @@ MonoBehaviour:
     y: -532.04895
     width: 2421.92676
     height: 1732.63831
-  selectedBlock: {fileID: 321828216}
+  selectedBlock: {fileID: 321828189}
   selectedCommands: []
   variables:
   - {fileID: 321827862}
@@ -2800,22 +2958,30 @@ MonoBehaviour:
   value: 0
 --- !u!114 &321827861
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 321827848}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fab8abf0343545abbfebd9a7b7b34bd, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 728
+  itemId: 763
   errorMessage: 
   indentLevel: 0
-  logType: 0
-  logMessage:
-    stringRef: {fileID: 0}
-    stringVal: TODO
+  storyText: Are you sure you wish to skip diagnostics at this time?
+  description: 
+  character: {fileID: 2109630365}
+  portrait: {fileID: 21300000, guid: 92f0aa5bf41608547b687f4b7d4a6d90, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &321827862
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2832,22 +2998,19 @@ MonoBehaviour:
   value: 0
 --- !u!114 &321827863
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 321827848}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fab8abf0343545abbfebd9a7b7b34bd, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ae9ec72878289d469d51a065ab7f593, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 727
+  itemId: 745
   errorMessage: 
   indentLevel: 0
-  logType: 0
-  logMessage:
-    stringRef: {fileID: 0}
-    stringVal: TODO
+  duration: 2
 --- !u!114 &321827864
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5209,24 +5372,6 @@ MonoBehaviour:
   logMessage:
     stringRef: {fileID: 0}
     stringVal: TODO
---- !u!114 &321827974
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 321827848}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fab8abf0343545abbfebd9a7b7b34bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 507
-  errorMessage: 
-  indentLevel: 0
-  logType: 0
-  logMessage:
-    stringRef: {fileID: 0}
-    stringVal: TODO
 --- !u!114 &321827975
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5235,15 +5380,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 321827848}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 350
+  itemId: 742
   errorMessage: 
   indentLevel: 0
-  targetFlowchart: {fileID: 321827850}
-  targetBlock: {fileID: 321828142}
-  callMode: 0
+  storyText: Performing calculations now. This may take some time so please be patient.
+  description: 
+  character: {fileID: 2109630365}
+  portrait: {fileID: 21300000, guid: 5c729a31f76071e46a10868fdbbef5cb, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
 --- !u!114 &321827976
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5258,8 +5412,8 @@ MonoBehaviour:
   itemId: 349
   errorMessage: 
   indentLevel: 0
-  storyText: Navigational systems performing at 100% efficiency. Diagnostics have
-    returned no errors.
+  storyText: Navigational systems performing at 80% efficiency. Diagnostics suggest
+    that the anomaly has deformed our trajectory by approximately 36%.
   description: 
   character: {fileID: 2109630365}
   portrait: {fileID: 21300000, guid: 5c729a31f76071e46a10868fdbbef5cb, type: 3}
@@ -5349,7 +5503,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 321827861}
+  - {fileID: 321828322}
+  - {fileID: 321828321}
+  - {fileID: 321828320}
 --- !u!114 &321827981
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5486,9 +5642,8 @@ MonoBehaviour:
   itemId: 337
   errorMessage: 
   indentLevel: 0
-  storyText: Performing these diagnostics is part of routine maintenance which is
-    included in your duties for this mission. Are you sure you do not wish to perform
-    diagnostics at this time?
+  storyText: Navigation systems are performing at 80% efficiency. If we do not perform
+    these diagnostics I cannot guarantee that we will reach our destination.
   description: 
   character: {fileID: 2109630365}
   portrait: {fileID: 21300000, guid: 92f0aa5bf41608547b687f4b7d4a6d90, type: 3}
@@ -5522,8 +5677,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 321827974}
   - {fileID: 321827987}
+  - {fileID: 321827861}
   - {fileID: 321827986}
   - {fileID: 321827985}
 --- !u!114 &321827989
@@ -5662,7 +5817,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 319.532166
-    y: 458.511993
+    y: 459.610901
     width: 130
     height: 40
   itemId: 325
@@ -5670,14 +5825,15 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 321828015}
   - {fileID: 321827993}
   - {fileID: 321827992}
   - {fileID: 321827991}
   - {fileID: 321827990}
   - {fileID: 321827989}
   - {fileID: 321827976}
-  - {fileID: 321827975}
+  - {fileID: 321828312}
+  - {fileID: 321828311}
+  - {fileID: 321828310}
 --- !u!114 &321827995
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5700,8 +5856,13 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 321827863}
   - {fileID: 321827979}
+  - {fileID: 321827975}
+  - {fileID: 321828317}
+  - {fileID: 321828316}
+  - {fileID: 321828315}
+  - {fileID: 321828319}
+  - {fileID: 321828318}
 --- !u!114 &321827996
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5733,7 +5894,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 682
   errorMessage: 
-  indentLevel: 0
+  indentLevel: 2
   storyText: Navigational systems performing at 80% efficiency. Would you like to
     perform diagnostics?
   description: 
@@ -5746,7 +5907,7 @@ MonoBehaviour:
   fadeIn: 0
   fadeOut: 0
   waitForClick: 1
-  setSayDialog: {fileID: 869084215}
+  setSayDialog: {fileID: 123292806}
 --- !u!114 &321827998
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5861,7 +6022,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 677
   errorMessage: 
-  indentLevel: 0
+  indentLevel: 2
   text: Skip diagnostics
   description: 
   targetBlock: {fileID: 321827988}
@@ -5880,12 +6041,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 676
   errorMessage: 
-  indentLevel: 0
+  indentLevel: 2
   text: Perform diagnostics
   description: 
   targetBlock: {fileID: 321827994}
   hideIfVisited: 1
-  setMenuDialog: {fileID: 0}
+  setMenuDialog: {fileID: 71108607}
 --- !u!114 &321828004
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6121,42 +6282,6 @@ MonoBehaviour:
   targetFlowchart: {fileID: 321827850}
   targetBlock: {fileID: 321828142}
   callMode: 0
---- !u!114 &321828015
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 321827848}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fab8abf0343545abbfebd9a7b7b34bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 506
-  errorMessage: 
-  indentLevel: 0
-  logType: 0
-  logMessage:
-    stringRef: {fileID: 0}
-    stringVal: TODO
---- !u!114 &321828016
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 321827848}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fab8abf0343545abbfebd9a7b7b34bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 505
-  errorMessage: 
-  indentLevel: 0
-  logType: 0
-  logMessage:
-    stringRef: {fileID: 0}
-    stringVal: TODO
 --- !u!114 &321828017
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9681,7 +9806,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 67.1803284
+    x: 68.2792358
     y: 456.515961
     width: 128
     height: 40
@@ -9690,13 +9815,23 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 321828281}
   commandList:
-  - {fileID: 321828016}
   - {fileID: 321828291}
   - {fileID: 321828290}
   - {fileID: 321828283}
+  - {fileID: 321828332}
+  - {fileID: 321828333}
   - {fileID: 321827997}
   - {fileID: 321828003}
   - {fileID: 321828002}
+  - {fileID: 321828331}
+  - {fileID: 321828330}
+  - {fileID: 321828329}
+  - {fileID: 321828328}
+  - {fileID: 321828327}
+  - {fileID: 321828326}
+  - {fileID: 321828325}
+  - {fileID: 321828324}
+  - {fileID: 321828323}
 --- !u!114 &321828169
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -10183,7 +10318,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -101.152122
+    x: -102.25103
     y: 45.4130783
     width: 120
     height: 40
@@ -10203,6 +10338,9 @@ MonoBehaviour:
   - {fileID: 321827929}
   - {fileID: 321827938}
   - {fileID: 321827934}
+  - {fileID: 321828309}
+  - {fileID: 321828308}
+  - {fileID: 321828307}
   - {fileID: 321827933}
   - {fileID: 321828035}
   - {fileID: 321828185}
@@ -12075,7 +12213,7 @@ MonoBehaviour:
     stringVal: 
 --- !u!114 &321828265
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 321827848}
@@ -12817,7 +12955,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &321828300
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 321827848}
@@ -12836,7 +12974,7 @@ MonoBehaviour:
   setMenuDialog: {fileID: 0}
 --- !u!114 &321828301
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 321827848}
@@ -12855,7 +12993,7 @@ MonoBehaviour:
   setMenuDialog: {fileID: 0}
 --- !u!114 &321828302
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 321827848}
@@ -12902,7 +13040,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 676385768}
 --- !u!114 &321828304
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 321827848}
@@ -12928,7 +13066,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &321828305
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 321827848}
@@ -12954,6 +13092,557 @@ MonoBehaviour:
   fadeOut: 0
   waitForClick: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &321828307
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321827848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 738
+  errorMessage: 
+  indentLevel: 0
+--- !u!114 &321828308
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321827848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 737
+  errorMessage: 
+  indentLevel: 1
+  targetGameObject: {fileID: 252401367}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &321828309
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321827848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 736
+  errorMessage: 
+  indentLevel: 0
+  compareOperator: 0
+  variable: {fileID: 617275394}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &321828310
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321827848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 741
+  errorMessage: 
+  indentLevel: 0
+  text: Skip calculations
+  description: 
+  targetBlock: {fileID: 321827980}
+  hideIfVisited: 0
+  setMenuDialog: {fileID: 0}
+--- !u!114 &321828311
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321827848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 740
+  errorMessage: 
+  indentLevel: 0
+  text: Perform calculations now
+  description: 
+  targetBlock: {fileID: 321827995}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &321828312
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321827848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 739
+  errorMessage: 
+  indentLevel: 0
+  storyText: If I recalculate our trajectory accounting for the deformation, we should
+    return to our course with only 10% deviation.
+  description: 
+  character: {fileID: 2109630365}
+  portrait: {fileID: 21300000, guid: 5c729a31f76071e46a10868fdbbef5cb, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 123292806}
+--- !u!114 &321828313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321827848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ae9ec72878289d469d51a065ab7f593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 744
+  errorMessage: 
+  indentLevel: 0
+  duration: 10
+--- !u!114 &321828315
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321827848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 746
+  errorMessage: 
+  indentLevel: 0
+  storyText: I have completed recalculating our trajectory and we are now back on
+    course.
+  description: 
+  character: {fileID: 2109630365}
+  portrait: {fileID: 21300000, guid: 5c729a31f76071e46a10868fdbbef5cb, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &321828316
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321827848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 745
+  errorMessage: 
+  indentLevel: 0
+  duration: 5
+--- !u!114 &321828317
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321827848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 744
+  errorMessage: 
+  indentLevel: 0
+  storyText: '........................................................................................................................................................................................................................................................................................................................................................................................................'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &321828318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321827848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 748
+  errorMessage: 
+  indentLevel: 0
+  targetFlowchart: {fileID: 321827850}
+  targetBlock: {fileID: 321828142}
+  callMode: 0
+--- !u!114 &321828319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321827848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 747
+  errorMessage: 
+  indentLevel: 0
+  storyText: Navigation systems now operating at 98% efficiency and the duration of
+    our journey has been extended by approximately 6%.
+  description: 
+  character: {fileID: 2109630365}
+  portrait: {fileID: 21300000, guid: 5c729a31f76071e46a10868fdbbef5cb, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &321828320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321827848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 762
+  errorMessage: 
+  indentLevel: 0
+  text: Skip calculations
+  description: 
+  targetBlock: {fileID: 321828142}
+  hideIfVisited: 0
+  setMenuDialog: {fileID: 0}
+--- !u!114 &321828321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321827848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 761
+  errorMessage: 
+  indentLevel: 0
+  text: Perform calculations
+  description: 
+  targetBlock: {fileID: 321827995}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 0}
+--- !u!114 &321828322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321827848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 760
+  errorMessage: 
+  indentLevel: 0
+  storyText: If I do not recalculate our trajectory, I cannot guarantee that we will
+    reach our destination. Are you sure you wish to skip these calculations?
+  description: 
+  character: {fileID: 2109630365}
+  portrait: {fileID: 21300000, guid: f991601f0d81aa644b7384cfcc31f466, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &321828323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321827848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 759
+  errorMessage: 
+  indentLevel: 0
+--- !u!114 &321828324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321827848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 758
+  errorMessage: 
+  indentLevel: 1
+  targetFlowchart: {fileID: 321827850}
+  targetBlock: {fileID: 321828142}
+  callMode: 0
+--- !u!114 &321828325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321827848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 757
+  errorMessage: 
+  indentLevel: 1
+  storyText: Navigation systems are operating at 98% efficiency.
+  description: 
+  character: {fileID: 2109630365}
+  portrait: {fileID: 21300000, guid: 5c729a31f76071e46a10868fdbbef5cb, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &321828326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321827848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18c5e8d46183346b59f64b820e71f97f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 756
+  errorMessage: 
+  indentLevel: 0
+  compareOperator: 0
+  variable: {fileID: 321827977}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &321828327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321827848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 755
+  errorMessage: 
+  indentLevel: 1
+--- !u!114 &321828328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321827848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 754
+  errorMessage: 
+  indentLevel: 2
+  text: Skip calculation
+  description: 
+  targetBlock: {fileID: 321827988}
+  hideIfVisited: 0
+  setMenuDialog: {fileID: 0}
+--- !u!114 &321828329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321827848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 753
+  errorMessage: 
+  indentLevel: 2
+  text: Recalculate trajectory
+  description: 
+  targetBlock: {fileID: 321827995}
+  hideIfVisited: 1
+  setMenuDialog: {fileID: 71108607}
+--- !u!114 &321828330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321827848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 752
+  errorMessage: 
+  indentLevel: 2
+  storyText: Our trajectory is off by approximately 36%. Would you like me to recalculate
+    our trajectory?
+  description: 
+  character: {fileID: 2109630365}
+  portrait: {fileID: 21300000, guid: 5c729a31f76071e46a10868fdbbef5cb, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeIn: 0
+  fadeOut: 0
+  waitForClick: 1
+  setSayDialog: {fileID: 123292806}
+--- !u!114 &321828331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321827848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 751
+  errorMessage: 
+  indentLevel: 1
+--- !u!114 &321828332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321827848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 750
+  errorMessage: 
+  indentLevel: 0
+  compareOperator: 0
+  variable: {fileID: 321827977}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &321828333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321827848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 749
+  errorMessage: 
+  indentLevel: 1
+  compareOperator: 0
+  variable: {fileID: 321827978}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!1 &337470669
 GameObject:
   m_ObjectHideFlags: 0
@@ -13121,7 +13810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 321827850}
+  selectedFlowchart: {fileID: 1778892217}
 --- !u!4 &361871483
 Transform:
   m_ObjectHideFlags: 1
@@ -24534,6 +25223,7 @@ Transform:
   - {fileID: 1778892218}
   - {fileID: 617275356}
   - {fileID: 321827849}
+  - {fileID: 252401372}
   - {fileID: 907672775}
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -25256,7 +25946,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 851110743}
-  m_RootOrder: 3
+  m_RootOrder: 4
 --- !u!114 &907672776
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -31400,7 +32090,7 @@ MonoBehaviour:
   fadeTexture: {fileID: 0}
 --- !u!114 &1778892215
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1778892211}
@@ -31424,7 +32114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 67
+    x: 66
     y: 69
     width: 130
     height: 40
