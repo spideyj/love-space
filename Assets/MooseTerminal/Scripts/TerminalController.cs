@@ -45,6 +45,7 @@ public class TerminalController {
 		commands.Add("help", new TerminalCommandHelp());
 		commands.Add("ls", new TerminalCommandLs());
 		commands.Add("pwd", new TerminalCommandPwd());
+		commands.Add("exit", new TerminalCommandExit());
 
 		PrintString("MooseTerminal v0.87");
 		PrintString("Online!\n\n\n:)");
