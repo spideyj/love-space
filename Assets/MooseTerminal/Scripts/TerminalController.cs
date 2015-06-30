@@ -46,10 +46,10 @@ public class TerminalController {
 		commands.Add("ls", new TerminalCommandLs());
 		commands.Add("pwd", new TerminalCommandPwd());
 		commands.Add("exit", new TerminalCommandExit());
-//		commands.Add("merge", new TerminalCommandMerge());
+		commands.Add("merge", new TerminalCommandMerge());
 
 		PrintString("MooseTerminal v0.87");
-		PrintString("Online!\n\n\n:)");
+		PrintString("Online!\n\n\nInput 'help' to see a list of available commands.");
 
 		root = new TerminalFileData("/", "root", new List<TerminalFileData>());
 		workingDirectory = new Stack<TerminalFileData>();
@@ -67,10 +67,10 @@ public class TerminalController {
 		TerminalFileData logsDir = new TerminalFileData("logs", "root", new List<TerminalFileData>());
 		root.children.Add(logsDir);
 
-		logsDir.children.Add(new TerminalFileData("log.5/31/2766", "loggr", "compressed log"));
-		logsDir.children.Add(new TerminalFileData("log.6/1/2766", "loggr", "compressed log"));
-		logsDir.children.Add(new TerminalFileData("log.6/2/2766", "---", "ERR"));
-		logsDir.children.Add(new TerminalFileData("log.6/3/2766", "loggr", "compressed log"));
+		logsDir.children.Add(new TerminalFileData("log.17-09-2132", "LeahK", "protected file"));
+		logsDir.children.Add(new TerminalFileData("log.01-06-2186", "KarenI", "protected file"));
+		logsDir.children.Add(new TerminalFileData("log.02-06-2478", "---", "ERR"));
+		logsDir.children.Add(new TerminalFileData("log.03-06-2478", "Alice", "encrypted"));
 
 		TerminalFileData readme = new TerminalFileData("readme", "root", "text");
 		root.children.Add (readme);

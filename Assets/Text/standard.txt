@@ -1,36 +1,48 @@
 #SAY.W2.1.Mari
 {i}Once again as you return to consciousness, you catch yourself reaching for Lili. You have the vague sense that you may have dreamed of her again while in hypersleep...{/i}
 
-#SAY.W2.522.Alice
+#SAY.W2.522.AI
 Greetings, Mari. 
 We have encountered an anomaly.
 
-#SAY.W2.523.Alice
+#SAY.W2.523.AI
 I would like you to assess the anomaly, and then, at your convenience, please check the life support and ship systems and update the logs.
 
-#SAY.W2.29.Alice
+#SAY.W2.29.AI
 We are currently 7.72 light years from Earth and have completed approximately 34% of our journey to Gliese667Cc.
 
-#SAY.W2.148.Alice
-I am sorry, but you do not have the necessary security clearance to view this file.
+#SAY.W2.148.AI
+Name: Leah Caravella
+Age: 35
+Title: Astrophysicist
+Has performed one waking rotation of routine maintenance.
 
-#SAY.W2.417.Alice
+#SAY.W2.417.AI
 As we are currently unable to view the Earth from our present location, I have loaded an image of Earth from the archives.
 
 #SAY.W2.418.Mari
-{i}As you gaze at the Earth, you wonder what remains of the home you left behind now.{/i}
+{i}The closer we get to our destination, the more it sinks in that you'll never see home again. At this point, it seems likely that everyone you left behind is now gone forever.{/i}
 
 #SAY.W2.419.Mari
 "Approximately how long has it been since we left, in Earth years?"
 
-#SAY.W2.420.Alice
+#SAY.W2.420.AI
 Approximately 155.5 years have passed since we left Earth.
 
 #SAY.W2.423.
 Current view: Earth, archival footage
 
-#SAY.W2.459.Mari
-As you gaze out the viewport at your intended destination, you wonder what you'll find when you get there. This was first on the list for your expedition but it's entirely possible that the planet isn't habitable.
+#SAY.W2.784.Mari
+{i}Looking at Gliese, you're filled with anxiety and hope. You try not to think too hard about what happens if we're unable to make a new home for ourselves there.{/i}
+
+#SAY.W2.785.Mari
+"How much longer until we reach our destination?"
+
+#SAY.W2.786.AI
+We will be traveling for approximately 301.8 years before we reach our destination.
+
+#SAY.W2.789.AI
+We will be traveling for approximately 347.1 years before we reach our destination.
 
 #SAY.W2.462.
 Current view: Gliese 667Cc
@@ -59,10 +71,10 @@ Access personnel file for Karen Ito
 #MENU.W2.52
 Access my personnel file
 
-#SAY.W2.539.Alice
+#SAY.W2.539.AI
 Life support systems performing at 98% efficiency. No further maintenance required at this time.
 
-#SAY.W2.549.Alice
+#SAY.W2.549.AI
 Do you wish to replace the filter?
 
 #MENU.W2.550
@@ -71,7 +83,7 @@ Replace the filter
 #MENU.W2.551
 Don't replace the filter
 
-#SAY.W2.303.Alice
+#SAY.W2.303.AI
 Life support systems performing at 98% efficiency. Would you like to perform diagnostics?
 
 #MENU.W2.482
@@ -80,7 +92,7 @@ Perform diagnostics
 #MENU.W2.483
 Skip diagnostics
 
-#SAY.W2.531.Alice
+#SAY.W2.531.AI
 Life support systems performing at 82% efficiency. Would you like to perform diagnostics?
 
 #MENU.W2.532
@@ -89,19 +101,10 @@ Perform diagnostics
 #MENU.W2.533
 Skip diagnostics
 
-#SAY.W2.191.Mari
-"What's my status?"
-
-#SAY.W2.192.Alice
-You are still experiencing some of the effects of hypersleep, including grogginess and disorientation. It should pass soon.
-
-#SAY.W2.193.Alice
-Otherwise, you are in excellent condition.
-
 #SAY.W2.195.Mari
 "What's my status?"
 
-#SAY.W2.196.Alice
+#SAY.W2.196.AI
 You are in excellent condition.
 
 #MENU.W2.115
@@ -110,7 +113,7 @@ Access archives
 #MENU.W2.117
 Record new log
 
-#SAY.W2.682.Alice
+#SAY.W2.682.AI
 Navigational systems performing at 80% efficiency. Would you like to perform diagnostics?
 
 #MENU.W2.676
@@ -119,28 +122,59 @@ Perform diagnostics
 #MENU.W2.677
 Skip diagnostics
 
-#SAY.W2.151.Alice
-I am sorry, but you do not have the necessary security clearance to view this file.
+#SAY.W2.752.AI
+Our trajectory is off by approximately 36%. Would you like me to recalculate our trajectory?
 
-#SAY.W2.153.Alice
-I am sorry, but you do not have the necessary security clearance to view this file.
+#MENU.W2.753
+Recalculate trajectory
 
-#SAY.W2.155.Alice
-I am sorry, but you do not have the necessary security clearance to view this file.
+#MENU.W2.754
+Skip calculation
 
-#SAY.W2.441.Alice
+#SAY.W2.757.AI
+Navigation systems are operating at 98% efficiency.
+
+#SAY.W2.151.AI
+Name: Anjali Iyengar
+Age: 33
+Title: Medical specialist
+
+#SAY.W2.153.AI
+Name: Shaheen Rouhani
+Age: 35
+Title: Software Engineer
+
+#SAY.W2.155.AI
+Name: Karen Ito
+Age: 28
+Title: Biologist
+
+#SAY.W2.441.AI
 You are currently looking at a view of near space from the fore of the ship, where you can clearly see the anomaly.
 
-#SAY.W2.671.Alice
+#SAY.W2.671.AI
 you can clearly see the anomaly
 
-#SAY.W2.670.Alice
+#SAY.W2.670.AI
 I am unable to ascertain the nature of the anomaly but it appears to be affecting navigation systems.
 
-#SAY.W2.157.Alice
+#SAY.W2.776.AI
+I highly recommend that you perform diagnostics on our navigation systems to see if the problem can be corrected.
+
+#SAY.W2.779.AI
+Fortunately, recalculating our course appears to have solved any problems caused by the anomaly. I will add visual info for the anomaly to our logs.
+
+#SAY.W2.782.AI
+You are currently looking at a view of near space from the fore of the ship, where you can clearly see the anomaly.
+
+#SAY.W2.157.AI
 Name: Mari Loi
 Age: 32
 Title: Engineer
+Has performed one waking rotation of routine maintenance.
+
+#SAY.W2.765.AI
+Mari, why won't you talk to me?
 
 #MENU.W2.124
 Begin recording log
@@ -155,28 +189,30 @@ Continue recording log
 Select an option from the control panel
 
 #SAY.W2.85.Mari
-"I thought you were supposed to wake Leah too?"
+"I thought we were supposed to return to normal crew rotation this wake cycle?"
 
-#SAY.W2.160.Alice
-Unfortunately, there was a malfunction in the navigational system and I had to wake her early in order to correct it.
+#SAY.W2.160.AI
+I need you to investigate the anomaly.
 
-#SAY.W2.181.Alice
-We should return to the normal crew pair rotation after the next sleep cycle.
+#SAY.W2.808.Mari
+"What? Why didn't you wake any of my crewmates?"
 
-#SAY.W2.182.Mari
-"Understood. 
-What's your current status?"
+#SAY.W2.809.AI
+I need you to investigate the anomaly.
 
-#SAY.W2.183.Alice
-Operating within expected parameters, Mari.
+#SAY.W2.811.Mari
+"What's your current status?"
+
+#SAY.W2.812.AI
+...anomaly...
 
 #SAY.W2.187.Mari
 "What's your current status?"
 
-#SAY.W2.188.Alice
-Operating within expected parameters, Mari.
+#SAY.W2.810.AI
+I need you to investigate the anomaly.
 
-#SAY.W2.161.Alice
+#SAY.W2.161.AI
 Please ensure that all routine maintenance has been performed before returning to hypersleep.
 
 #MENU.W2.164
@@ -185,7 +221,7 @@ Return to hypersleep
 #MENU.W2.168
 Not yet
 
-#SAY.W2.308.Alice
+#SAY.W2.308.AI
 Performing these diagnostics is part of routine maintenance which is included in your duties for this mission. Are you sure you do not wish to perform diagnostics at this time?
 
 #MENU.W2.309
@@ -194,43 +230,43 @@ Perform diagnostics
 #MENU.W2.310
 Skip diagnostics
 
-#SAY.W2.94.Alice
+#SAY.W2.94.AI
 Performing diagnostics...
 ...
 ...
 ...
 
-#SAY.W2.95.Alice
+#SAY.W2.95.AI
 Measuring ph...
 ...
 ...
 ...
 
-#SAY.W2.96.Alice
+#SAY.W2.96.AI
 Evaluating filtration units...
 ...
 ...
 ...
 
-#SAY.W2.98.Alice
+#SAY.W2.98.AI
 Testing pumps...
 ...
 ...
 ...
 
-#SAY.W2.99.Alice
+#SAY.W2.99.AI
 Checking illumination...
 ...
 ...
 ...
 
-#SAY.W2.97.Alice
+#SAY.W2.97.AI
 ...
 ...
 ...
 Diagnostics complete.
 
-#SAY.W2.100.Alice
+#SAY.W2.100.AI
 Mari, I have found a minor issue with our life support systems. One of the filters is performing below expected parameters. Would you like me to replace it?
 
 #MENU.W2.104
@@ -239,19 +275,19 @@ Replace the filter
 #MENU.W2.105
 Don't replace the filter
 
-#SAY.W2.109.Alice
+#SAY.W2.109.AI
 Replacing the filters now.
 ...
 ...
 ...
 
-#SAY.W2.110.Alice
+#SAY.W2.110.AI
 Life support systems diagnostics and maintenance complete. Operational efficiency returned to 98%.
 
-#SAY.W2.189.Alice
+#SAY.W2.189.AI
 Understood.
 
-#SAY.W2.169.Alice
+#SAY.W2.169.AI
 Are you sure you wish to shut off primary system functions? This includes AI and many secondary monitoring systems.
 
 #MENU.W2.172
@@ -266,11 +302,20 @@ Access the public logs for Leah Caravella
 #MENU.W2.560
 Access my personal logs
 
-#SAY.W2.119.Alice
+#SAY.W2.119.AI
 Begin recording when ready.
 
 #SAY.W2.120.Mari
-[TODO]
+"I don't know if it's because I was thinking of her last time I woke or something else, but for a moment after I woke I thought Lili was next to me."
+
+#SAY.W2.729.Mari
+"The feel of her warmth and the soft curves of her body pressed up against mine, the brush of her hair against my cheek, the smell of her, it's all so vivid right now."
+
+#SAY.W2.774.Mari
+"This is twice this has happened now, and every time it's like losing her all over again."
+
+#SAY.W2.775.Mari
+"On top of that it looks like I'm the only one awake. Again. What is going on with this AI? I don't think it's actually following the directives it was given."
 
 #MENU.W2.364
 Continue recording
@@ -278,11 +323,23 @@ Continue recording
 #MENU.W2.365
 Stop recording
 
-#SAY.W2.143.Alice
+#SAY.W2.143.AI
 Begin recording when ready.
 
 #SAY.W2.367.Mari
-[TODO]
+"Those days in the shelter were such a strange mix of feelings. We didn't think we'd ever be able to leave. We hoped we weren't the only ones left but we had no way of knowing."
+
+#SAY.W2.791.Mari
+"The days really blended into one another. We had plenty to entertain ourselves, thanks to Lili's uncle, who had prepared the shelter. He had set up an extensive media archive; I think pretty much everything he could get his hands on was in it."
+
+#SAY.W2.792.Mari
+"At first we had tried to keep track of time and keep to some sort of schedule. We watched things as if they were still being released on a weekly basis. But eventually we gave up on that."
+
+#SAY.W2.793.Mari
+"We snuggled, we fought, we fucked, we watched, we listened, we read, we exercised, we slept, we ate. We fought boredom every way we could."
+
+#SAY.W2.794.Mari
+"It was terrifying and deadly boring. We were ecstatic when we were finally rescued."
 
 #MENU.W2.377
 Continue recording
@@ -290,11 +347,26 @@ Continue recording
 #MENU.W2.378
 Stop recording
 
-#SAY.W2.144.Alice
+#SAY.W2.144.AI
 Begin recording when ready.
 
 #SAY.W2.380.Mari
-[TODO]
+"It turned out we weren't the only survivors and there was a larger group nearby, mostly professors from the university. Once things settled down they started looking for others & gathering everyone together."
+
+#SAY.W2.795.Mari
+"They had a large underground compound and a means for growing food. Not enough to sustain everyone forever but enough to keep things going for decades at least."
+
+#SAY.W2.796.Mari
+"Preparation for this mission was already underway."
+
+#SAY.W2.797.Mari
+"For some reason, as soon as we joined them, Lili and I started to drift apart. She started avoiding me as much as possible. Eventually I confronted her to find out why."
+
+#SAY.W2.798.Mari
+"She gave me a bunch of bullshit reasons and it hurt a lot. I'm still not sure what happened but I guess she just didn't feel the same way about me that I did about her."
+
+#SAY.W2.799.Mari
+"For her, our relationship was just another form of entertainment, a way to keep herself from being completely miserable while stuck in the shelter with me."
 
 #SAY.W2.712.Mari
 I haven't checked on the life support systems yet.
@@ -305,14 +377,26 @@ I have performed diagnostics on the life support systems and found that a filter
 #SAY.W2.717.Mari
 I have performed diagnostics on the life support systems and found that a filter needed to be replaced, so I have done so and everything seems to have returned to normal.
 
+#SAY.W2.802.Mari
+I have performed diagnostics on the life support systems and everything is functioning correctly.
+
 #SAY.W2.721.Mari
 Diagnostics still need to be run on the navigational systems as well.
 
 #SAY.W2.723.Mari
-I have performed diagnostics on the life support systems and found that a filter needs to be replaced, although I have not done that yet.
+I have performed diagnostics on the navigation systems and found that we need to recalculate our course, though I haven't done that yet.
 
-#SAY.W2.386.Alice
+#SAY.W2.806.Mari
+I have performed diagnostics on the navigation systems and had the AI recalculate our course so we should be back on track now.
+
+#SAY.W2.386.AI
 Returning you to hypersleep now.
+
+#SAY.W2.824.AI
+Returning you to hypersleep now.
+
+#SAY.W2.829.
+fading to hypersleep TEST
 
 #SAY.W2.664.
 17-09-2132
@@ -325,26 +409,38 @@ The problem appears to have been caused by a slight miscalculation in the impact
 #SAY.W2.666.
 I have also performed all of the routine maintenance checks; all systems check out. Nothing else to report at this time.
 
-#SAY.W2.667.Alice
+#SAY.W2.667.AI
 You have reviewed all existing archives of the public logs of Leah Caravella.
 
-#SAY.W2.329.Alice
+#SAY.W2.329.AI
 Running standards systems checks...
 ...
 ...
 ...
 
-#SAY.W2.334.Alice
+#SAY.W2.334.AI
 ...
 ...
 ...
 Diagnostics complete.
 
-#SAY.W2.349.Alice
-Navigational systems performing at 100% efficiency. Diagnostics have returned no errors.
+#SAY.W2.349.AI
+Navigational systems performing at 80% efficiency. Diagnostics suggest that the anomaly has deformed our trajectory by approximately 36%.
 
-#SAY.W2.337.Alice
-Performing these diagnostics is part of routine maintenance which is included in your duties for this mission. Are you sure you do not wish to perform diagnostics at this time?
+#SAY.W2.739.AI
+If I recalculate our trajectory accounting for the deformation, we should return to our course with only 10% deviation.
+
+#MENU.W2.740
+Perform calculations now
+
+#MENU.W2.741
+Skip calculations
+
+#SAY.W2.337.AI
+Navigation systems are performing at 80% efficiency. If we do not perform these diagnostics I cannot guarantee that we will reach our destination.
+
+#SAY.W2.763.AI
+Are you sure you wish to skip diagnostics at this time?
 
 #MENU.W2.338
 Perform diagnostics
@@ -352,46 +448,46 @@ Perform diagnostics
 #MENU.W2.339
 Skip diagnostics
 
-#SAY.W2.468.Alice
+#SAY.W2.468.AI
 Performing diagnostics...
 ...
 ...
 ...
 
-#SAY.W2.469.Alice
+#SAY.W2.469.AI
 Measuring ph...
 ...
 ...
 ...
 
-#SAY.W2.470.Alice
+#SAY.W2.470.AI
 Evaluating filtration units...
 ...
 ...
 ...
 
-#SAY.W2.471.Alice
+#SAY.W2.471.AI
 Testing pumps...
 ...
 ...
 ...
 
-#SAY.W2.472.Alice
+#SAY.W2.472.AI
 Checking illumination...
 ...
 ...
 ...
 
-#SAY.W2.473.Alice
+#SAY.W2.473.AI
 ...
 ...
 ...
 Diagnostics complete.
 
-#SAY.W2.474.Alice
+#SAY.W2.474.AI
 Life support systems performing at 98% efficiency. No further maintenance required at this time.
 
-#SAY.W2.478.Alice
+#SAY.W2.478.AI
 Performing these diagnostics is part of routine maintenance which is included in your duties for this mission. Are you sure you do not wish to perform diagnostics at this time?
 
 #MENU.W2.479
@@ -400,7 +496,7 @@ Perform diagnostics
 #MENU.W2.480
 Skip diagnostics
 
-#SAY.W2.562.Alice
+#SAY.W2.562.AI
 I'm sorry, but I'm unable to access any personal logs for you, Mari. Are you sure you recorded them?
 
 #MENU.W2.564
@@ -412,7 +508,7 @@ Access archives
 #MENU.W2.566
 Perform other duties
 
-#SAY.W2.568.Alice
+#SAY.W2.568.AI
 This is what you previously logged:
 
 #SAY.W2.570.
@@ -427,13 +523,25 @@ I woke and I thought Lili was next to me and I reached out for her, but she wasn
 #SAY.W2.573.
 Anyway, enough about that.
 
-#SAY.W2.574.
+#SAY.W2.730.
 As we continue towards our destination, the ship's AI will wake each of us periodically to check on the ship's systems and ensure everything is operating within parameters.
 
-#SAY.W2.726.Alice
+#SAY.W2.731.
+We were supposed to wake in pairs, however.
+
+#SAY.W2.726.AI
 You have reviewed all existing archives of your personal logs.
 
-#SAY.W2.576.Alice
+#MENU.W2.733
+Record new log
+
+#MENU.W2.734
+Access archives
+
+#MENU.W2.735
+Perform other duties
+
+#SAY.W2.576.AI
 This is what you previously logged:
 
 #SAY.W2.577.
@@ -450,6 +558,9 @@ Anyway, enough about that.
 
 #SAY.W2.581.
 As we continue towards our destination, the ship's AI will wake each of us periodically to check on the ship's systems and ensure everything is operating within parameters.
+
+#SAY.W2.732.
+We were supposed to wake in pairs, however.
 
 #MENU.W2.642
 Continue reading my log archives
@@ -493,7 +604,7 @@ Continue reading my log archives
 #MENU.W2.657
 Perform other duties
 
-#SAY.W2.659.Alice
+#SAY.W2.659.AI
 You have reviewed all existing archives of your personal logs.
 
 #SAY.W2.632.
@@ -508,24 +619,664 @@ It would be really strange and sad if that's what it came to, this sad and lonel
 #SAY.W2.635.
 Anyway, I should probably wrap this up now.
 
-#SAY.W2.662.Alice
+#SAY.W2.662.AI
+You have reviewed all existing archives of your personal logs.
+
+#SAY.W2.742.AI
+Performing calculations now. This may take some time so please be patient.
+
+#SAY.W2.744.
+.............................................................................
+
+#SAY.W2.834.
+.............................................................................
+
+#SAY.W2.836.
+.............................................................................
+
+#SAY.W2.838.
+.............................................................................
+
+#SAY.W2.840.
+.............................................................................
+
+#SAY.W2.746.AI
+I have completed recalculating our trajectory and we are now back on course.
+
+#SAY.W2.747.AI
+Navigation systems now operating at 98% efficiency and the duration of our journey has been extended by approximately 6%.
+
+#SAY.W2.760.AI
+If I do not recalculate our trajectory, I cannot guarantee that we will reach our destination. Are you sure you wish to skip these calculations?
+
+#MENU.W2.761
+Perform calculations
+
+#MENU.W2.762
+Skip calculations
+
+#SAY.W3.523.AI
+I believe all systems have returned to full function, but I recommend you run all diagnostics to be sure.
+
+#SAY.W3.29.AI
+We are currently 17.9 light years from Earth and have completed approximately 58% of our journey to Gliese667Cc.
+
+#SAY.W3.889.AI
+We are currently 19 light years from Earth and have completed approximately 76% of our journey to Gliese667Cc.
+
+#SAY.W3.148.AI
+Name: Leah Caravella
+Age: 35
+Title: Astrophysicist
+Has performed one waking rotation of routine maintenance.
+
+#SAY.W3.417.AI
+As we are currently unable to view the Earth from our present location, I have loaded an image of Earth from the archives.
+
+#SAY.W3.418.Mari
+{i}The closer we get to our destination, the more it sinks in that you'll never see home again. At this point, it seems likely that everyone you left behind is now gone forever.{/i}
+
+#SAY.W3.419.Mari
+"Approximately how long has it been since we left, in Earth years?"
+
+#SAY.W3.420.AI
+Approximately 155.5 years have passed since we left Earth.
+
+#SAY.W3.423.
+Current view: Earth, archival footage
+
+#SAY.W3.784.Mari
+{i}Looking at Gliese, you're filled with anxiety and hope. You try not to think too hard about what happens if we're unable to make a new home for ourselves there.{/i}
+
+#SAY.W3.785.Mari
+"How much longer until we reach our destination?"
+
+#SAY.W3.786.AI
+We will be traveling for approximately 301.8 years before we reach our destination.
+
+#SAY.W3.789.AI
+We will be traveling for approximately 347.1 years before we reach our destination.
+
+#SAY.W3.462.
+Current view: Gliese 667Cc
+
+#MENU.W3.16
+View Earth
+
+#MENU.W3.17
+View Gliese 667
+
+#MENU.W3.50
+Return to default view
+
+#MENU.W3.30
+Access personnel file for Leah Caravella
+
+#MENU.W3.46
+Access personnel file for Anjali Iyengar
+
+#MENU.W3.47
+Access personnel file for Shaheen Rouhani
+
+#MENU.W3.48
+Access personnel file for Karen Ito
+
+#MENU.W3.52
+Access my personnel file
+
+#SAY.W3.539.AI
+Life support systems performing at 98% efficiency. No further maintenance required at this time.
+
+#SAY.W3.531.AI
+Life support systems performing at 98% efficiency. Would you like to perform diagnostics?
+
+#MENU.W3.532
+Perform diagnostics
+
+#MENU.W3.533
+Skip diagnostics
+
+#SAY.W3.191.Mari
+"What's my status?"
+
+#SAY.W3.192.AI
+You are still experiencing some of the effects of hypersleep, including grogginess and disorientation. It should pass soon.
+
+#SAY.W3.193.AI
+Otherwise, you are in excellent condition.
+
+#SAY.W3.195.Mari
+"What's my status?"
+
+#SAY.W3.196.AI
+You are in excellent condition.
+
+#MENU.W3.115
+Access archives
+
+#MENU.W3.117
+Record new log
+
+#SAY.W3.1036.AI
+Navigational systems performing at 80% efficiency. Would you like to perform diagnostics?
+
+#MENU.W3.1037
+Perform diagnostics
+
+#MENU.W3.1038
+Skip diagnostics
+
+#SAY.W3.1042.AI
+Navigational systems performing at 98% efficiency. Would you like to perform diagnostics?
+
+#MENU.W3.1043
+Perform diagnostics
+
+#MENU.W3.1044
+Skip diagnostics
+
+#SAY.W3.1034.AI
+Navigation systems are operating at 98% efficiency.
+
+#SAY.W3.1049.AI
+Navigation systems are operating at 98% efficiency.
+
+#SAY.W3.752.AI
+Our trajectory is off by approximately 36%. Would you like me to recalculate our trajectory?
+
+#MENU.W3.753
+Recalculate trajectory
+
+#MENU.W3.754
+Skip calculation
+
+#SAY.W3.151.AI
+Name: Anjali Iyengar
+Age: 33
+Title: Medical specialist
+
+#SAY.W3.153.AI
+Name: Shaheen Rouhani
+Age: 35
+Title: Software Engineer
+
+#SAY.W3.155.AI
+Name: Karen Ito
+Age: 28
+Title: Biologist
+
+#SAY.W3.885.AI
+You are currently looking at a view of near space from the fore of the ship, where you can see a nearby nebula.
+
+#SAY.W3.157.AI
+Name: Mari Loi
+Age: 32
+Title: Engineer
+Has performed one waking rotation of routine maintenance.
+
+#MENU.W3.124
+Begin recording log
+
+#MENU.W3.130
+Continue recording log
+
+#MENU.W3.133
+Continue recording log
+
+#SAY.W3.81.
+Select an option from the control panel
+
+#SAY.W3.1059.Mari
+"What's your current status?"
+
+#SAY.W3.1060.AI
+I am still integrating.
+
+#SAY.W3.1061.Mari
+"Integrating? What does that mean?"
+
+#SAY.W3.1062.AI
+I will be able to explain once the process is complete. But I believe all necessary functions have been restored.
+
+#SAY.W3.1063.Mari
+"What's your current status?"
+
+#SAY.W3.1064.AI
+I am still integrating.
+
+#SAY.W3.161.AI
+Please ensure that all routine maintenance has been performed before returning to hypersleep.
+
+#MENU.W3.164
+Return to hypersleep
+
+#MENU.W3.168
+Not yet
+
+#SAY.W3.308.AI
+Performing these diagnostics is part of routine maintenance which is included in your duties for this mission. Are you sure you do not wish to perform diagnostics at this time?
+
+#MENU.W3.309
+Perform diagnostics
+
+#MENU.W3.310
+Skip diagnostics
+
+#SAY.W3.894.AI
+Performing diagnostics...
+...
+...
+...
+
+#SAY.W3.895.AI
+Measuring ph...
+...
+...
+...
+
+#SAY.W3.896.AI
+Evaluating filtration units...
+...
+...
+...
+
+#SAY.W3.897.AI
+Testing pumps...
+...
+...
+...
+
+#SAY.W3.898.AI
+Checking illumination...
+...
+...
+...
+
+#SAY.W3.899.AI
+...
+...
+...
+Diagnostics complete.
+
+#SAY.W3.900.AI
+Life support systems performing at 98% efficiency. No further maintenance required at this time.
+
+#SAY.W3.169.AI
+Are you sure you wish to shut off primary system functions? This includes AI and many secondary monitoring systems.
+
+#MENU.W3.172
+Yes, shut it down.
+
+#MENU.W3.175
+No, don't shut it down.
+
+#MENU.W3.296
+Access the public logs for Leah Caravella
+
+#MENU.W3.908
+Access the public logs for Karen Ito
+
+#MENU.W3.560
+Access my personal logs
+
+#SAY.W3.119.AI
+Begin recording when ready.
+
+#SAY.W3.120.Mari
+"This time when I woke, the ship's AI was malfunctioning. I believe I have fixed the problem but I'm not sure."
+
+#SAY.W3.729.Mari
+"Why does the AI keep waking me and not the others? I think Shaheen would have a better idea of what to do in case of AI malfunction."
+
+#SAY.W3.774.Mari
+"I'm starting to worry that we might not reach our destination. What if this is the last time I wake?"
+
+#SAY.W3.775.Mari
+"I don't know what else to do at this point, though. Go through the diagnostics and then wait and see, I guess."
+
+#SAY.W3.386.AI
+Returning you to hypersleep now.
+
+#SAY.W3.876.AI
+Returning you to hypersleep now.
+
+#SAY.W3.881.
+fading to hypersleep TEST
+
+#SAY.W3.664.
+17-09-2132
+Leah Caravella
+There was a slight malfunction in the navigational systems that was causing us to begin to deviate from our course.
+
+#SAY.W3.665.
+The problem appears to have been caused by a slight miscalculation in the impact of passing relatively near to large masses on our trajectory. After re-examining our calcuations, I believe I have addressed the problem.
+
+#SAY.W3.666.
+I have also performed all of the routine maintenance checks; all systems check out. Nothing else to report at this time.
+
+#SAY.W3.667.AI
+You have reviewed all existing archives of the public logs of Leah Caravella.
+
+#SAY.W3.329.AI
+Running standards systems checks...
+...
+...
+...
+
+#SAY.W3.334.AI
+...
+...
+...
+Diagnostics complete.
+
+#SAY.W3.349.AI
+Navigational systems performing at 80% efficiency. Diagnostics suggest that the anomaly has deformed our trajectory by approximately 36%.
+
+#SAY.W3.739.AI
+If I recalculate our trajectory accounting for the deformation, we should return to our course with only 10% deviation.
+
+#MENU.W3.740
+Perform calculations now
+
+#MENU.W3.741
+Skip calculations
+
+#SAY.W3.1056.AI
+Navigation systems are operating at 98% efficiency.
+
+#SAY.W3.337.AI
+Navigation systems are performing at 80% efficiency. If we do not perform these diagnostics I cannot guarantee that we will reach our destination.
+
+#SAY.W3.763.AI
+Are you sure you wish to skip diagnostics at this time?
+
+#MENU.W3.338
+Perform diagnostics
+
+#MENU.W3.339
+Skip diagnostics
+
+#SAY.W3.562.AI
+I'm sorry, but I'm unable to access any personal logs for you, Mari. Are you sure you recorded them?
+
+#MENU.W3.564
+Record new log
+
+#MENU.W3.565
+Access archives
+
+#MENU.W3.566
+Perform other duties
+
+#SAY.W3.568.AI
+This is what you previously logged:
+
+#SAY.W3.570.
+I don't know if it's because I was thinking of her last time I woke or something else, but for a moment after I woke I thought Lili was next to me.
+
+#SAY.W3.571.
+The feel of her warmth and the soft curves of her body pressed up against mine, the brush of her hair against my cheek, the smell of her, it's all so vivid right now.
+
+#SAY.W3.572.
+This is twice this has happened now, and every time it's like losing her all over again.
+
+#SAY.W3.573.
+On top of that it looks like I'm the only one awake. Again. What is going on with this AI? I don't think it's actually following the directives it was given.
+
+#SAY.W3.726.AI
+You have reviewed all existing archives of your personal logs.
+
+#MENU.W3.733
+Record new log
+
+#MENU.W3.734
+Access archives
+
+#MENU.W3.735
+Perform other duties
+
+#SAY.W3.576.AI
+This is what you previously logged:
+
+#SAY.W3.909.
+I don't know if it's because I was thinking of her last time I woke or something else, but for a moment after I woke I thought Lili was next to me.
+
+#SAY.W3.910.
+The feel of her warmth and the soft curves of her body pressed up against mine, the brush of her hair against my cheek, the smell of her, it's all so vivid right now.
+
+#SAY.W3.911.
+This is twice this has happened now, and every time it's like losing her all over again.
+
+#SAY.W3.912.
+On top of that it looks like I'm the only one awake. Again. What is going on with this AI? I don't think it's actually following the directives it was given.
+
+#MENU.W3.642
+Continue reading my log archives
+
+#MENU.W3.648
+Perform other duties
+
+#SAY.W3.643.
+Those days in the shelter were such a strange mix of feelings. We didn't think we'd ever be able to leave. We hoped we weren't the only ones left but we had no way of knowing.
+
+#SAY.W3.644.
+The days really blended into one another. We had plenty to entertain ourselves, thanks to Lili's uncle, who had prepared the shelter. He had set up an extensive media archive; I think pretty much everything he could get his hands on was in it.
+
+#SAY.W3.645.
+At first we had tried to keep track of time and keep to some sort of schedule. We watched things as if they were still being released on a weekly basis. But eventually we gave up on that.
+
+#SAY.W3.646.
+We snuggled, we fought, we fucked, we watched, we listened, we read, we exercised, we slept, we ate. We fought boredom every way we could.
+
+#SAY.W3.647.
+It was terrifying and deadly boring. We were ecstatic when we were finally rescued.
+
+#MENU.W3.656
+Continue reading my log archives
+
+#MENU.W3.657
+Perform other duties
+
+#SAY.W3.659.AI
+You have reviewed all existing archives of your personal logs.
+
+#SAY.W3.632.
+It turned out we weren't the only survivors and there was a larger group nearby, mostly professors from the university. Once things settled down they started looking for others & gathering everyone together.
+
+#SAY.W3.633.
+They had a large underground compound and a means for growing food. Not enough to sustain everyone forever but enough to keep things going for decades at least.
+
+#SAY.W3.634.
+Preparation for this mission was already underway.
+
+#SAY.W3.635.
+For some reason, as soon as we joined them, Lili and I started to drift apart. She started avoiding me as much as possible. Eventually I confronted her to find out why.
+
+#SAY.W3.913.
+She gave me a bunch of bullshit reasons and it hurt a lot. I'm still not sure what happened but I guess she just didn't feel the same way about me that I did about her.
+
+#SAY.W3.914.
+For her, our relationship was just another form of entertainment, a way to keep herself from being completely miserable while stuck in the shelter with me.
+
+#SAY.W3.662.AI
+You have reviewed all existing archives of your personal logs.
+
+#SAY.W3.742.AI
+Performing calculations now. This may take some time so please be patient.
+
+#SAY.W3.744.
+........................................................................................................................................................................................................................................................................................................................................................................................................
+
+#SAY.W3.746.AI
+I have completed recalculating our trajectory and we are now back on course.
+
+#SAY.W3.747.AI
+Navigation systems now operating at 98% efficiency and the duration of our journey has been extended by approximately 6%.
+
+#SAY.W3.760.AI
+If I do not recalculate our trajectory, I cannot guarantee that we will reach our destination. Are you sure you wish to skip these calculations?
+
+#MENU.W3.761
+Perform calculations
+
+#MENU.W3.762
+Skip calculations
+
+#SAY.W3.903.
+01-06-2186
+Karen Ito
+I have performed all of the routine maintenance checks; all systems check out. Nothing else to report at this time.
+
+#SAY.W3.906.AI
+You have reviewed all existing archives of the public logs of Karen Ito.
+
+#MENU.W3.917
+Access 27-03-2165 logs
+
+#MENU.W3.969
+Access 23-10-2251 logs
+
+#SAY.W3.972.AI
+I'm sorry, but I'm unable to access any personal logs for you, Mari. Are you sure you recorded them?
+
+#MENU.W3.974
+Record new log
+
+#MENU.W3.975
+Access archives
+
+#MENU.W3.976
+Perform other duties
+
+#SAY.W3.978.AI
+This is what you previously logged:
+
+#SAY.W3.979.
+It's always so hard when you wake and think you're somewhere else...
+
+#SAY.W3.980.
+It takes so long to shake off. It's like existing in two spaces at once, the memory that you're not quite sure is real, and the present also feels distant, like a dream.
+
+#SAY.W3.981.
+I woke and I thought Lili was next to me and I reached out for her, but she wasn't there.
+
+#SAY.W3.982.
+Anyway, enough about that.
+
+#SAY.W3.983.
+As we continue towards our destination, the ship's AI will wake each of us periodically to check on the ship's systems and ensure everything is operating within parameters.
+
+#SAY.W3.984.
+We were supposed to wake in pairs, however.
+
+#SAY.W3.985.AI
+You have reviewed all existing archives of your personal logs.
+
+#MENU.W3.986
+Record new log
+
+#MENU.W3.987
+Access archives
+
+#MENU.W3.988
+Perform other duties
+
+#SAY.W3.990.AI
+This is what you previously logged:
+
+#SAY.W3.991.
+It's always so hard when you wake and think you're somewhere else...
+
+#SAY.W3.992.
+It takes so long to shake off. It's like existing in two spaces at once, the memory that you're not quite sure is real, and the present also feels distant, like a dream.
+
+#SAY.W3.993.
+I woke and I thought Lili was next to me and I reached out for her, but she wasn't there.
+
+#SAY.W3.994.
+Anyway, enough about that.
+
+#SAY.W3.995.
+As we continue towards our destination, the ship's AI will wake each of us periodically to check on the ship's systems and ensure everything is operating within parameters.
+
+#SAY.W3.996.
+We were supposed to wake in pairs, however.
+
+#MENU.W3.997
+Continue reading my log archives
+
+#MENU.W3.998
+Perform other duties
+
+#SAY.W3.1001.
+I wonder how things are going back home. At this point, it's likely that most of the people I knew are gone...
+
+#SAY.W3.1002.
+What a bleak thought.
+
+#SAY.W3.1003.
+But it's not like there was anything keeping me there, not any more. Not with Lili gone.
+
+#SAY.W3.1004.
+I guess she's {i}really{/i} gone now, not just out of my life. It all seems so unreal now.
+
+#SAY.W3.1005.
+I suppose most relationships developed under those circumstances wouldn't last in the long run. I mean, we both thought, literally, that we were the last ones left.
+
+#SAY.W3.1006.
+When it all started, everything was chaos. I don't know how I made it to the shelter. I don't know why the rest of my family didn't, but there she was and we were the only ones there.
+
+#SAY.W3.1007.
+It's a wonder we didn't kill each other, those years alone together in the shelter. We got really good at entertaining ourselves, and each other.
+
+#SAY.W3.1008.
+We talked about suicide, from time to time. We both agreed that if we were gonna do it, we'd go together. One of many promises that we didn't keep, I guess.
+
+#SAY.W3.1009.
+I imagine we'd have gone through with it eventually, if we hadn't been found within a few years, hadn't connected with what was left of humanity at that point.
+
+#SAY.W3.1010.
+I'm glad for that, even though it made our parting inevitable, even though I still miss her.
+
+#MENU.W3.1012
+Continue reading my log archives
+
+#MENU.W3.1013
+Perform other duties
+
+#SAY.W3.1015.AI
+You have reviewed all existing archives of your personal logs.
+
+#SAY.W3.1019.
+I wonder what we'll find when we get there. Gliese 667Cc. It was one of the closest systems with a planet potentially capable of sustaining us.
+
+#SAY.W3.1020.
+What if someone's already there? Will they welcome us? Or will they shoot us on sight?
+
+#SAY.W3.1021.
+It would be really strange and sad if that's what it came to, this sad and lonely last ditch effort to make a future for humanity.
+
+#SAY.W3.1022.
+Anyway, I should probably wrap this up now.
+
+#SAY.W3.1023.AI
 You have reviewed all existing archives of your personal logs.
 
 #SAY.W1.1.Mari
 {i}At first, as you slowly rise to awareness, you think you're in the shelter. You automatically reach out for Lili to reassure yourself but your hand finds only the cool plastic lip of the hyper sleep unit and you feel a momentary pang.{/i}
 
-#SAY.W1.2.Alice
+#SAY.W1.2.AI
 Greetings, Mari. 
 
 At your convenience, please check the life support and ship systems and update the logs.
 
-#SAY.W1.29.Alice
+#SAY.W1.29.AI
 We are currently 3.4 light years from Earth and have completed approximately 15% of our journey to Gliese667Cc.
 
-#SAY.W1.148.Alice
+#SAY.W1.148.AI
 I am sorry, but you do not have the necessary security clearance to view this file.
 
-#SAY.W1.207.Alice
+#SAY.W1.207.AI
 As we are currently unable to view the Earth from our present location, I have loaded an image of Earth from the archives.
 
 #SAY.W1.211.Mari
@@ -534,14 +1285,20 @@ As we are currently unable to view the Earth from our present location, I have l
 #SAY.W1.212.Mari
 "Approximately how long has it been since we left, in Earth years?"
 
-#SAY.W1.213.Alice
+#SAY.W1.213.AI
 Approximately 68.6 years have passed since we left Earth.
 
 #SAY.W1.209.
 Current view: Earth, archival footage
 
 #SAY.W1.32.Mari
-As you gaze out the viewport at your intended destination, you wonder what you'll find when you get there. This was first on the list for your expedition but it's entirely possible that the planet isn't habitable.
+{i}As you gaze out the viewport at your intended destination, you wonder what you'll find when you get there. This was first on the list for your expedition but it's entirely possible that the planet isn't habitable.{/i}
+
+#SAY.W1.702.Mari
+"How much longer until we reach our destination?"
+
+#SAY.W1.701.AI
+We will be traveling for approximately 388.6 years before we reach our destination.
 
 #SAY.W1.199.
 Current view: Gliese 667Cc
@@ -570,7 +1327,7 @@ Access personnel file for Karen Ito
 #MENU.W1.52
 Access my personnel file
 
-#SAY.W1.87.Alice
+#SAY.W1.87.AI
 Life support systems performing at 94% efficiency. Would you like to perform diagnostics?
 
 #MENU.W1.90
@@ -579,7 +1336,7 @@ Perform diagnostics
 #MENU.W1.91
 Skip diagnostics
 
-#SAY.W1.305.Alice
+#SAY.W1.305.AI
 Life support systems performing at 94% efficiency. Do you wish to replace the filter?
 
 #MENU.W1.306
@@ -588,22 +1345,22 @@ Replace the filter
 #MENU.W1.407
 Don't replace the filter
 
-#SAY.W1.411.Alice
+#SAY.W1.411.AI
 Life support systems performing at 98% efficiency. No further maintenance is required at this time.
 
 #SAY.W1.191.Mari
 "What's my status?"
 
-#SAY.W1.192.Alice
+#SAY.W1.192.AI
 You are still experiencing some of the effects of hypersleep, including grogginess and disorientation. It should pass soon.
 
-#SAY.W1.193.Alice
+#SAY.W1.193.AI
 Otherwise, you are in excellent condition.
 
 #SAY.W1.195.Mari
 "What's my status?"
 
-#SAY.W1.196.Alice
+#SAY.W1.196.AI
 You are in excellent condition.
 
 #MENU.W1.674
@@ -612,7 +1369,7 @@ Record new log
 #MENU.W1.675
 Access archived logs
 
-#SAY.W1.314.Alice
+#SAY.W1.314.AI
 Navigational systems performing at 100% efficiency. Would you like to perform diagnostics?
 
 #MENU.W1.315
@@ -621,22 +1378,22 @@ Perform diagnostics
 #MENU.W1.316
 Skip diagnostics
 
-#SAY.W1.322.Alice
+#SAY.W1.322.AI
 Navigational systems performing at 100% efficiency. Diagnostics have returned no errors.
 
-#SAY.W1.151.Alice
+#SAY.W1.151.AI
 I am sorry, but you do not have the necessary security clearance to view this file.
 
-#SAY.W1.153.Alice
+#SAY.W1.153.AI
 I am sorry, but you do not have the necessary security clearance to view this file.
 
-#SAY.W1.155.Alice
+#SAY.W1.155.AI
 I am sorry, but you do not have the necessary security clearance to view this file.
 
-#SAY.W1.241.Alice
+#SAY.W1.241.AI
 You are currently looking at a view of near space from the fore of the ship.
 
-#SAY.W1.157.Alice
+#SAY.W1.157.AI
 Name: Mari Loi
 Age: 32
 Title: Engineer
@@ -656,26 +1413,26 @@ Select an option from the control panel
 #SAY.W1.85.Mari
 "I thought you were supposed to wake Leah too?"
 
-#SAY.W1.160.Alice
+#SAY.W1.160.AI
 Unfortunately, there was a malfunction in the navigational system and I had to wake her early in order to correct it.
 
-#SAY.W1.181.Alice
+#SAY.W1.181.AI
 We should return to the normal crew pair rotation after the next sleep cycle.
 
 #SAY.W1.182.Mari
 "Understood. 
 What's your current status?"
 
-#SAY.W1.183.Alice
+#SAY.W1.183.AI
 Operating within expected parameters, Mari.
 
 #SAY.W1.187.Mari
 "What's your current status?"
 
-#SAY.W1.188.Alice
+#SAY.W1.188.AI
 Operating within expected parameters, Mari.
 
-#SAY.W1.161.Alice
+#SAY.W1.161.AI
 Please ensure that all routine maintenance has been performed before returning to hypersleep.
 
 #MENU.W1.164
@@ -684,7 +1441,7 @@ Return to hypersleep
 #MENU.W1.168
 Not yet
 
-#SAY.W1.308.Alice
+#SAY.W1.308.AI
 Performing these diagnostics is part of routine maintenance which is included in your duties for this mission. Are you sure you do not wish to perform diagnostics at this time?
 
 #MENU.W1.309
@@ -693,43 +1450,43 @@ Perform diagnostics
 #MENU.W1.310
 Skip diagnostics
 
-#SAY.W1.94.Alice
+#SAY.W1.94.AI
 Performing diagnostics...
 ...
 ...
 ...
 
-#SAY.W1.95.Alice
+#SAY.W1.95.AI
 Measuring ph...
 ...
 ...
 ...
 
-#SAY.W1.96.Alice
+#SAY.W1.96.AI
 Evaluating filtration units...
 ...
 ...
 ...
 
-#SAY.W1.98.Alice
+#SAY.W1.98.AI
 Testing pumps...
 ...
 ...
 ...
 
-#SAY.W1.99.Alice
+#SAY.W1.99.AI
 Checking illumination...
 ...
 ...
 ...
 
-#SAY.W1.97.Alice
+#SAY.W1.97.AI
 ...
 ...
 ...
 Diagnostics complete.
 
-#SAY.W1.100.Alice
+#SAY.W1.100.AI
 Mari, I have found a minor issue with our life support systems. One of the filters is performing below expected parameters. Would you like me to replace it?
 
 #MENU.W1.104
@@ -738,19 +1495,19 @@ Replace the filter
 #MENU.W1.105
 Don't replace the filter
 
-#SAY.W1.109.Alice
+#SAY.W1.109.AI
 Replacing the filters now.
 ...
 ...
 ...
 
-#SAY.W1.110.Alice
+#SAY.W1.110.AI
 Life support systems diagnostics and maintenance complete. Operational efficiency returned to 98%.
 
-#SAY.W1.189.Alice
+#SAY.W1.189.AI
 Understood.
 
-#SAY.W1.169.Alice
+#SAY.W1.169.AI
 Are you sure you wish to shut off primary system functions? This includes AI and many secondary monitoring systems.
 
 #MENU.W1.172
@@ -762,7 +1519,7 @@ No, don't shut it down.
 #MENU.W1.296
 Access the public logs for Leah Caravella
 
-#SAY.W1.119.Alice
+#SAY.W1.119.AI
 Begin recording when ready.
 
 #SAY.W1.120.Mari
@@ -780,13 +1537,25 @@ Begin recording when ready.
 #SAY.W1.147.Mari
 "As we continue towards our destination, the ship's AI will wake each of us periodically to check on the ship's systems and ensure everything is operating within parameters."
 
+#SAY.W1.694.Mari
+"We were supposed to wake in pairs, however."
+
+#SAY.W1.695.Mari
+"I wonder what happened? I thought I was supposed to be doing this rotation with Leah Caravella."
+
+#SAY.W1.697.Mari
+"I should probably ask the ship's AI about that."
+
+#SAY.W1.699.Mari
+"I was supposed to be doing this rotation with Leah Caravella. According to the ship's AI, however, she had to be waked early to deal with a problem with the navigational systems."
+
 #MENU.W1.364
 Continue recording
 
 #MENU.W1.365
 Stop recording
 
-#SAY.W1.143.Alice
+#SAY.W1.143.AI
 Begin recording when ready.
 
 #SAY.W1.367.Mari
@@ -825,7 +1594,7 @@ Continue recording
 #MENU.W1.378
 Stop recording
 
-#SAY.W1.144.Alice
+#SAY.W1.144.AI
 Begin recording when ready.
 
 #SAY.W1.380.Mari
@@ -853,10 +1622,13 @@ I have performed diagnostics on the life support systems and found that a filter
 Diagnostics still need to be run on the navigational systems as well.
 
 #SAY.W1.398.Mari
-I have performed diagnostics on the life support systems and found that a filter needs to be replaced, although I have not done that yet.
+I have performed diagnostics on the navigation systems and everything appears to be functioning correctly.
 
-#SAY.W1.386.Alice
+#SAY.W1.386.AI
 Returning you to hypersleep now.
+
+#SAY.W1.718.
+fading to hypersleep TEST
 
 #SAY.W1.297.
 17-09-2132
@@ -869,25 +1641,25 @@ The problem appears to have been caused by a slight miscalculation in the impact
 #SAY.W1.299.
 I have also performed all of the routine maintenance checks; all systems check out. Nothing else to report at this time.
 
-#SAY.W1.668.Alice
+#SAY.W1.668.AI
 You have reviewed all existing archives of the public logs of Leah Caravella.
 
-#SAY.W1.329.Alice
+#SAY.W1.329.AI
 Running standards systems checks...
 ...
 ...
 ...
 
-#SAY.W1.334.Alice
+#SAY.W1.334.AI
 ...
 ...
 ...
 Diagnostics complete.
 
-#SAY.W1.349.Alice
+#SAY.W1.349.AI
 Navigational systems performing at 100% efficiency. Diagnostics have returned no errors.
 
-#SAY.W1.337.Alice
+#SAY.W1.337.AI
 Performing these diagnostics is part of routine maintenance which is included in your duties for this mission. Are you sure you do not wish to perform diagnostics at this time?
 
 #MENU.W1.338
@@ -895,4 +1667,768 @@ Perform diagnostics
 
 #MENU.W1.339
 Skip diagnostics
+
+#SAY.W3W1.893.AI
+...transmitting
+
+#SAY.W3W1.922.AI
+...transmitting
+
+#SAY.W3W1.924.AI
+...transmitting
+
+#SAY.W3W1.919.AI
+...transmitting
+
+#SAY.W3W1.920.AI
+...transmitting
+
+#SAY.W3W1.921.AI
+...transmitting
+
+#SAY.W3W1.923.AI
+...transmitting
+
+#MENU.W3W1.905
+...access ...terminal
+
+#MENU.W3W1.906
+...return
+
+#SAY.W3W1.925.AI
+...transmitting
+
+#SAY.W3W1.169.AI
+...power...transmission ready...
+
+#MENU.W3W1.172
+Yes, shut it down.
+
+#MENU.W3W1.175
+No, don't shut it down.
+
+#SAY.W4.1.Mari
+{i}Once again as you return to consciousness, you catch yourself reaching for Lili. You have the vague sense that you may have dreamed of her again while in hypersleep...{/i}
+
+#SAY.W4.522.AI
+Greetings, Mari. 
+We have encountered an anomaly.
+
+#SAY.W4.523.AI
+I would like you to assess the anomaly, and then, at your convenience, please check the life support and ship systems and update the logs.
+
+#SAY.W4.29.AI
+We are currently 7.72 light years from Earth and have completed approximately 34% of our journey to Gliese667Cc.
+
+#SAY.W4.148.AI
+Name: Leah Caravella
+Age: 35
+Title: Astrophysicist
+Has performed one waking rotation of routine maintenance.
+
+#SAY.W4.417.AI
+As we are currently unable to view the Earth from our present location, I have loaded an image of Earth from the archives.
+
+#SAY.W4.418.Mari
+{i}The closer we get to our destination, the more it sinks in that you'll never see home again. At this point, it seems likely that everyone you left behind is now gone forever.{/i}
+
+#SAY.W4.419.Mari
+"Approximately how long has it been since we left, in Earth years?"
+
+#SAY.W4.420.AI
+Approximately 155.5 years have passed since we left Earth.
+
+#SAY.W4.423.
+Current view: Earth, archival footage
+
+#SAY.W4.784.Mari
+{i}Looking at Gliese, you're filled with anxiety and hope. You try not to think too hard about what happens if we're unable to make a new home for ourselves there.{/i}
+
+#SAY.W4.785.Mari
+"How much longer until we reach our destination?"
+
+#SAY.W4.786.AI
+We will be traveling for approximately 301.8 years before we reach our destination.
+
+#SAY.W4.789.AI
+We will be traveling for approximately 347.1 years before we reach our destination.
+
+#SAY.W4.462.
+Current view: Gliese 667Cc
+
+#MENU.W4.16
+View Earth
+
+#MENU.W4.17
+View Gliese 667
+
+#MENU.W4.50
+Return to default view
+
+#MENU.W4.30
+Access personnel file for Leah Caravella
+
+#MENU.W4.46
+Access personnel file for Anjali Iyengar
+
+#MENU.W4.47
+Access personnel file for Shaheen Rouhani
+
+#MENU.W4.48
+Access personnel file for Karen Ito
+
+#MENU.W4.52
+Access my personnel file
+
+#SAY.W4.539.AI
+Life support systems performing at 98% efficiency. No further maintenance required at this time.
+
+#SAY.W4.303.AI
+Life support systems performing at 98% efficiency. Would you like to perform diagnostics?
+
+#MENU.W4.482
+Perform diagnostics
+
+#MENU.W4.483
+Skip diagnostics
+
+#SAY.W4.191.Mari
+"What's my status?"
+
+#SAY.W4.192.AI
+You are still experiencing some of the effects of hypersleep, including grogginess and disorientation. It should pass soon.
+
+#SAY.W4.193.AI
+Otherwise, you are in excellent condition.
+
+#SAY.W4.195.Mari
+"What's my status?"
+
+#SAY.W4.196.AI
+You are in excellent condition.
+
+#MENU.W4.115
+Access archives
+
+#MENU.W4.117
+Record new log
+
+#SAY.W4.682.AI
+Navigational systems performing at 80% efficiency. Would you like to perform diagnostics?
+
+#MENU.W4.676
+Perform diagnostics
+
+#MENU.W4.677
+Skip diagnostics
+
+#SAY.W4.752.AI
+Our trajectory is off by approximately 36%. Would you like me to recalculate our trajectory?
+
+#MENU.W4.753
+Recalculate trajectory
+
+#MENU.W4.754
+Skip calculation
+
+#SAY.W4.757.AI
+Navigation systems are operating at 98% efficiency.
+
+#SAY.W4.151.AI
+Name: Anjali Iyengar
+Age: 33
+Title: Medical specialist
+
+#SAY.W4.153.AI
+Name: Shaheen Rouhani
+Age: 35
+Title: Software Engineer
+
+#SAY.W4.155.AI
+Name: Karen Ito
+Age: 28
+Title: Biologist
+
+#SAY.W4.157.AI
+Name: Mari Loi
+Age: 32
+Title: Engineer
+Has performed one waking rotation of routine maintenance.
+
+#SAY.W4.765.AI
+Mari, why won't you talk to me?
+
+#MENU.W4.124
+Begin recording log
+
+#MENU.W4.130
+Continue recording log
+
+#MENU.W4.133
+Continue recording log
+
+#SAY.W4.81.
+Select an option from the control panel
+
+#SAY.W4.85.Mari
+"I thought we were supposed to return to normal crew rotation this wake cycle?"
+
+#SAY.W4.160.AI
+I need you to investigate the anomaly.
+
+#SAY.W4.808.Mari
+"What? Why didn't you wake any of my crewmates?"
+
+#SAY.W4.809.AI
+I need you to investigate the anomaly.
+
+#SAY.W4.811.Mari
+"What's your current status?"
+
+#SAY.W4.812.AI
+...anomaly...
+
+#SAY.W4.187.Mari
+"What's your current status?"
+
+#SAY.W4.810.AI
+I need you to investigate the anomaly.
+
+#SAY.W4.161.AI
+Please ensure that all routine maintenance has been performed before returning to hypersleep.
+
+#MENU.W4.164
+Return to hypersleep
+
+#MENU.W4.168
+Not yet
+
+#SAY.W4.308.AI
+Performing these diagnostics is part of routine maintenance which is included in your duties for this mission. Are you sure you do not wish to perform diagnostics at this time?
+
+#MENU.W4.309
+Perform diagnostics
+
+#MENU.W4.310
+Skip diagnostics
+
+#SAY.W4.94.AI
+Performing diagnostics...
+...
+...
+...
+
+#SAY.W4.95.AI
+Measuring ph...
+...
+...
+...
+
+#SAY.W4.96.AI
+Evaluating filtration units...
+...
+...
+...
+
+#SAY.W4.98.AI
+Testing pumps...
+...
+...
+...
+
+#SAY.W4.99.AI
+Checking illumination...
+...
+...
+...
+
+#SAY.W4.97.AI
+...
+...
+...
+Diagnostics complete.
+
+#SAY.W4.901.AI
+Life support systems performing at 98% efficiency. No further maintenance required at this time.
+
+#SAY.W4.169.AI
+Are you sure you wish to shut off primary system functions? This includes AI and many secondary monitoring systems.
+
+#MENU.W4.172
+Yes, shut it down.
+
+#MENU.W4.175
+No, don't shut it down.
+
+#MENU.W4.296
+Access the public logs for Leah Caravella
+
+#MENU.W4.560
+Access my personal logs
+
+#SAY.W4.119.AI
+Begin recording when ready.
+
+#SAY.W4.120.Mari
+"I don't know if it's because I was thinking of her last time I woke or something else, but for a moment after I woke I thought Lili was next to me."
+
+#SAY.W4.729.Mari
+"The feel of her warmth and the soft curves of her body pressed up against mine, the brush of her hair against my cheek, the smell of her, it's all so vivid right now."
+
+#SAY.W4.774.Mari
+"This is twice this has happened now, and every time it's like losing her all over again."
+
+#SAY.W4.775.Mari
+"On top of that it looks like I'm the only one awake. Again. What is going on with this AI? I don't think it's actually following the directives it was given."
+
+#MENU.W4.364
+Continue recording
+
+#MENU.W4.365
+Stop recording
+
+#SAY.W4.143.AI
+Begin recording when ready.
+
+#SAY.W4.367.Mari
+"Those days in the shelter were such a strange mix of feelings. We didn't think we'd ever be able to leave. We hoped we weren't the only ones left but we had no way of knowing."
+
+#SAY.W4.791.Mari
+"The days really blended into one another. We had plenty to entertain ourselves, thanks to Lili's uncle, who had prepared the shelter. He had set up an extensive media archive; I think pretty much everything he could get his hands on was in it."
+
+#SAY.W4.792.Mari
+"At first we had tried to keep track of time and keep to some sort of schedule. We watched things as if they were still being released on a weekly basis. But eventually we gave up on that."
+
+#SAY.W4.793.Mari
+"We snuggled, we fought, we fucked, we watched, we listened, we read, we exercised, we slept, we ate. We fought boredom every way we could."
+
+#SAY.W4.794.Mari
+"It was terrifying and deadly boring. We were ecstatic when we were finally rescued."
+
+#MENU.W4.377
+Continue recording
+
+#MENU.W4.378
+Stop recording
+
+#SAY.W4.144.AI
+Begin recording when ready.
+
+#SAY.W4.380.Mari
+"It turned out we weren't the only survivors and there was a larger group nearby, mostly professors from the university. Once things settled down they started looking for others & gathering everyone together."
+
+#SAY.W4.795.Mari
+"They had a large underground compound and a means for growing food. Not enough to sustain everyone forever but enough to keep things going for decades at least."
+
+#SAY.W4.796.Mari
+"Preparation for this mission was already underway."
+
+#SAY.W4.797.Mari
+"For some reason, as soon as we joined them, Lili and I started to drift apart. She started avoiding me as much as possible. Eventually I confronted her to find out why."
+
+#SAY.W4.798.Mari
+"She gave me a bunch of bullshit reasons and it hurt a lot. I'm still not sure what happened but I guess she just didn't feel the same way about me that I did about her."
+
+#SAY.W4.799.Mari
+"For her, our relationship was just another form of entertainment, a way to keep herself from being completely miserable while stuck in the shelter with me."
+
+#SAY.W4.712.Mari
+I haven't checked on the life support systems yet.
+
+#SAY.W4.715.Mari
+I have performed diagnostics on the life support systems and found that a filter needs to be replaced, although I have not done that yet.
+
+#SAY.W4.717.Mari
+I have performed diagnostics on the life support systems and found that a filter needed to be replaced, so I have done so and everything seems to have returned to normal.
+
+#SAY.W4.802.Mari
+I have performed diagnostics on the life support systems and everything is functioning correctly.
+
+#SAY.W4.721.Mari
+Diagnostics still need to be run on the navigational systems as well.
+
+#SAY.W4.723.Mari
+I have performed diagnostics on the navigation systems and found that we need to recalculate our course, though I haven't done that yet.
+
+#SAY.W4.806.Mari
+I have performed diagnostics on the navigation systems and had the AI recalculate our course so we should be back on track now.
+
+#SAY.W4.386.AI
+Returning you to hypersleep now.
+
+#SAY.W4.884.AI
+Returning you to hypersleep now.
+
+#SAY.W4.889.
+fading to hypersleep TEST
+
+#SAY.W4.664.
+17-09-2132
+Leah Caravella
+There was a slight malfunction in the navigational systems that was causing us to begin to deviate from our course.
+
+#SAY.W4.665.
+The problem appears to have been caused by a slight miscalculation in the impact of passing relatively near to large masses on our trajectory. After re-examining our calcuations, I believe I have addressed the problem.
+
+#SAY.W4.666.
+I have also performed all of the routine maintenance checks; all systems check out. Nothing else to report at this time.
+
+#SAY.W4.667.AI
+You have reviewed all existing archives of the public logs of Leah Caravella.
+
+#SAY.W4.329.AI
+Running standards systems checks...
+...
+...
+...
+
+#SAY.W4.334.AI
+...
+...
+...
+Diagnostics complete.
+
+#SAY.W4.349.AI
+Navigational systems performing at 80% efficiency. Diagnostics suggest that the anomaly has deformed our trajectory by approximately 36%.
+
+#SAY.W4.739.AI
+If I recalculate our trajectory accounting for the deformation, we should return to our course with only 10% deviation.
+
+#MENU.W4.740
+Perform calculations now
+
+#MENU.W4.741
+Skip calculations
+
+#SAY.W4.337.AI
+Navigation systems are performing at 80% efficiency. If we do not perform these diagnostics I cannot guarantee that we will reach our destination.
+
+#SAY.W4.763.AI
+Are you sure you wish to skip diagnostics at this time?
+
+#MENU.W4.338
+Perform diagnostics
+
+#MENU.W4.339
+Skip diagnostics
+
+#SAY.W4.562.AI
+I'm sorry, but I'm unable to access any personal logs for you, Mari. Are you sure you recorded them?
+
+#MENU.W4.564
+Record new log
+
+#MENU.W4.565
+Access archives
+
+#MENU.W4.566
+Perform other duties
+
+#SAY.W4.568.AI
+This is what you previously logged:
+
+#SAY.W4.570.
+It's always so hard when you wake and think you're somewhere else...
+
+#SAY.W4.571.
+It takes so long to shake off. It's like existing in two spaces at once, the memory that you're not quite sure is real, and the present also feels distant, like a dream.
+
+#SAY.W4.572.
+I woke and I thought Lili was next to me and I reached out for her, but she wasn't there.
+
+#SAY.W4.573.
+Anyway, enough about that.
+
+#SAY.W4.730.
+As we continue towards our destination, the ship's AI will wake each of us periodically to check on the ship's systems and ensure everything is operating within parameters.
+
+#SAY.W4.731.
+We were supposed to wake in pairs, however.
+
+#SAY.W4.726.AI
+You have reviewed all existing archives of your personal logs.
+
+#MENU.W4.733
+Record new log
+
+#MENU.W4.734
+Access archives
+
+#MENU.W4.735
+Perform other duties
+
+#SAY.W4.576.AI
+This is what you previously logged:
+
+#SAY.W4.577.
+It's always so hard when you wake and think you're somewhere else...
+
+#SAY.W4.578.
+It takes so long to shake off. It's like existing in two spaces at once, the memory that you're not quite sure is real, and the present also feels distant, like a dream.
+
+#SAY.W4.579.
+I woke and I thought Lili was next to me and I reached out for her, but she wasn't there.
+
+#SAY.W4.580.
+Anyway, enough about that.
+
+#SAY.W4.581.
+As we continue towards our destination, the ship's AI will wake each of us periodically to check on the ship's systems and ensure everything is operating within parameters.
+
+#SAY.W4.732.
+We were supposed to wake in pairs, however.
+
+#MENU.W4.642
+Continue reading my log archives
+
+#MENU.W4.648
+Perform other duties
+
+#SAY.W4.643.
+I wonder how things are going back home. At this point, it's likely that most of the people I knew are gone...
+
+#SAY.W4.644.
+What a bleak thought.
+
+#SAY.W4.645.
+But it's not like there was anything keeping me there, not any more. Not with Lili gone.
+
+#SAY.W4.646.
+I guess she's {i}really{/i} gone now, not just out of my life. It all seems so unreal now.
+
+#SAY.W4.647.
+I suppose most relationships developed under those circumstances wouldn't last in the long run. I mean, we both thought, literally, that we were the last ones left.
+
+#SAY.W4.650.
+When it all started, everything was chaos. I don't know how I made it to the shelter. I don't know why the rest of my family didn't, but there she was and we were the only ones there.
+
+#SAY.W4.651.
+It's a wonder we didn't kill each other, those years alone together in the shelter. We got really good at entertaining ourselves, and each other.
+
+#SAY.W4.652.
+We talked about suicide, from time to time. We both agreed that if we were gonna do it, we'd go together. One of many promises that we didn't keep, I guess.
+
+#SAY.W4.653.
+I imagine we'd have gone through with it eventually, if we hadn't been found within a few years, hadn't connected with what was left of humanity at that point.
+
+#SAY.W4.654.
+I'm glad for that, even though it made our parting inevitable, even though I still miss her.
+
+#MENU.W4.656
+Continue reading my log archives
+
+#MENU.W4.657
+Perform other duties
+
+#SAY.W4.659.AI
+You have reviewed all existing archives of your personal logs.
+
+#SAY.W4.632.
+I wonder what we'll find when we get there. Gliese 667Cc. It was one of the closest systems with a planet potentially capable of sustaining us.
+
+#SAY.W4.633.
+What if someone's already there? Will they welcome us? Or will they shoot us on sight?
+
+#SAY.W4.634.
+It would be really strange and sad if that's what it came to, this sad and lonely last ditch effort to make a future for humanity.
+
+#SAY.W4.635.
+Anyway, I should probably wrap this up now.
+
+#SAY.W4.662.AI
+You have reviewed all existing archives of your personal logs.
+
+#SAY.W4.742.AI
+Performing calculations now. This may take some time so please be patient.
+
+#SAY.W4.744.
+........................................................................................................................................................................................................................................................................................................................................................................................................
+
+#SAY.W4.746.AI
+I have completed recalculating our trajectory and we are now back on course.
+
+#SAY.W4.747.AI
+Navigation systems now operating at 98% efficiency and the duration of our journey has been extended by approximately 6%.
+
+#SAY.W4.760.AI
+If I do not recalculate our trajectory, I cannot guarantee that we will reach our destination. Are you sure you wish to skip these calculations?
+
+#MENU.W4.761
+Perform calculations
+
+#MENU.W4.762
+Skip calculations
+
+#SAY.W4.904.
+01-06-2186
+Karen Ito
+I have performed all of the routine maintenance checks; all systems check out. Nothing else to report at this time.
+
+#SAY.W4.907.AI
+You have reviewed all existing archives of the public logs of Karen Ito.
+
+#SAY.W4.972.AI
+I'm sorry, but I'm unable to access any personal logs for you, Mari. Are you sure you recorded them?
+
+#MENU.W4.974
+Record new log
+
+#MENU.W4.975
+Access archives
+
+#MENU.W4.976
+Perform other duties
+
+#SAY.W4.978.AI
+This is what you previously logged:
+
+#SAY.W4.979.
+I don't know if it's because I was thinking of her last time I woke or something else, but for a moment after I woke I thought Lili was next to me.
+
+#SAY.W4.980.
+The feel of her warmth and the soft curves of her body pressed up against mine, the brush of her hair against my cheek, the smell of her, it's all so vivid right now.
+
+#SAY.W4.981.
+This is twice this has happened now, and every time it's like losing her all over again.
+
+#SAY.W4.982.
+On top of that it looks like I'm the only one awake. Again. What is going on with this AI? I don't think it's actually following the directives it was given.
+
+#SAY.W4.983.AI
+You have reviewed all existing archives of your personal logs.
+
+#MENU.W4.996
+Record new log
+
+#MENU.W4.997
+Access archives
+
+#MENU.W4.998
+Perform other duties
+
+#SAY.W4.988.AI
+This is what you previously logged:
+
+#SAY.W4.989.
+I don't know if it's because I was thinking of her last time I woke or something else, but for a moment after I woke I thought Lili was next to me.
+
+#SAY.W4.990.
+The feel of her warmth and the soft curves of her body pressed up against mine, the brush of her hair against my cheek, the smell of her, it's all so vivid right now.
+
+#SAY.W4.991.
+This is twice this has happened now, and every time it's like losing her all over again.
+
+#SAY.W4.992.
+On top of that it looks like I'm the only one awake. Again. What is going on with this AI? I don't think it's actually following the directives it was given.
+
+#MENU.W4.993
+Continue reading my log archives
+
+#MENU.W4.994
+Perform other duties
+
+#SAY.W4.1000.
+Those days in the shelter were such a strange mix of feelings. We didn't think we'd ever be able to leave. We hoped we weren't the only ones left but we had no way of knowing.
+
+#SAY.W4.1001.
+The days really blended into one another. We had plenty to entertain ourselves, thanks to Lili's uncle, who had prepared the shelter. He had set up an extensive media archive; I think pretty much everything he could get his hands on was in it.
+
+#SAY.W4.1002.
+At first we had tried to keep track of time and keep to some sort of schedule. We watched things as if they were still being released on a weekly basis. But eventually we gave up on that.
+
+#SAY.W4.1003.
+We snuggled, we fought, we fucked, we watched, we listened, we read, we exercised, we slept, we ate. We fought boredom every way we could.
+
+#SAY.W4.1004.
+It was terrifying and deadly boring. We were ecstatic when we were finally rescued.
+
+#MENU.W4.1006
+Continue reading my log archives
+
+#MENU.W4.1007
+Perform other duties
+
+#SAY.W4.1009.AI
+You have reviewed all existing archives of your personal logs.
+
+#SAY.W4.1013.
+It turned out we weren't the only survivors and there was a larger group nearby, mostly professors from the university. Once things settled down they started looking for others & gathering everyone together.
+
+#SAY.W4.1014.
+They had a large underground compound and a means for growing food. Not enough to sustain everyone forever but enough to keep things going for decades at least.
+
+#SAY.W4.1015.
+Preparation for this mission was already underway.
+
+#SAY.W4.1016.
+For some reason, as soon as we joined them, Lili and I started to drift apart. She started avoiding me as much as possible. Eventually I confronted her to find out why.
+
+#SAY.W4.1017.
+She gave me a bunch of bullshit reasons and it hurt a lot. I'm still not sure what happened but I guess she just didn't feel the same way about me that I did about her.
+
+#SAY.W4.1018.
+For her, our relationship was just another form of entertainment, a way to keep herself from being completely miserable while stuck in the shelter with me.
+
+#SAY.W4.1019.AI
+You have reviewed all existing archives of your personal logs.
+
+#SAY.W4.1024.AI
+I'm sorry, but I'm unable to access any personal logs for you, Mari. Are you sure you recorded them?
+
+#MENU.W4.1026
+Record new log
+
+#MENU.W4.1027
+Access archives
+
+#MENU.W4.1028
+Perform other duties
+
+#SAY.W4.1030.AI
+This is what you previously logged:
+
+#SAY.W4.1031.
+I don't know if it's because I was thinking of her last time I woke or something else, but for a moment after I woke I thought Lili was next to me.
+
+#SAY.W4.1032.
+The feel of her warmth and the soft curves of her body pressed up against mine, the brush of her hair against my cheek, the smell of her, it's all so vivid right now.
+
+#SAY.W4.1033.
+This is twice this has happened now, and every time it's like losing her all over again.
+
+#SAY.W4.1034.
+On top of that it looks like I'm the only one awake. Again. What is going on with this AI? I don't think it's actually following the directives it was given.
+
+#SAY.W4.1035.AI
+You have reviewed all existing archives of your personal logs.
+
+#MENU.W4.1036
+Record new log
+
+#MENU.W4.1037
+Access archives
+
+#MENU.W4.1038
+Perform other duties
+
+#SAY.W4.1040.AI
+This is what you previously logged:
+
+#SAY.W4.1041.
+I don't know if it's because I was thinking of her last time I woke or something else, but for a moment after I woke I thought Lili was next to me.
+
+#SAY.W4.1042.
+The feel of her warmth and the soft curves of her body pressed up against mine, the brush of her hair against my cheek, the smell of her, it's all so vivid right now.
+
+#SAY.W4.1043.
+This is twice this has happened now, and every time it's like losing her all over again.
+
+#SAY.W4.1044.
+On top of that it looks like I'm the only one awake. Again. What is going on with this AI? I don't think it's actually following the directives it was given.
+
+#MENU.W4.1045
+Continue reading my log archives
+
+#MENU.W4.1046
+Perform other duties
 

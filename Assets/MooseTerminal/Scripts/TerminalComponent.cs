@@ -2,8 +2,10 @@
 using System.Collections;
 using UnityEngine.UI;
 
-public class TerminalComponent : MonoBehaviour {
 
+
+public class TerminalComponent : MonoBehaviour {
+	
 	public TerminalController terminalController;
 
 	public Text terminalOutput;
