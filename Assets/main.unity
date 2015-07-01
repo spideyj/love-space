@@ -3265,7 +3265,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollPos: {x: 234.034149, y: 79.0892334}
+  scrollPos: {x: 381.595123, y: -22.1302185}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 0
   blockViewHeight: 486
@@ -3276,9 +3276,9 @@ MonoBehaviour:
     y: -532.04895
     width: 2421.92676
     height: 1732.63831
-  selectedBlock: {fileID: 321828068}
+  selectedBlock: {fileID: 321827865}
   selectedCommands:
-  - {fileID: 321828308}
+  - {fileID: 321827866}
   variables:
   - {fileID: 321827862}
   - {fileID: 321828010}
@@ -3582,8 +3582,8 @@ MonoBehaviour:
   itemId: 463
   errorMessage: 
   indentLevel: 0
-  targetFlowchart: {fileID: 617275355}
-  targetBlock: {fileID: 617275438}
+  targetFlowchart: {fileID: 321827850}
+  targetBlock: {fileID: 321828142}
   callMode: 0
 --- !u!114 &321827867
 MonoBehaviour:
@@ -4378,8 +4378,8 @@ MonoBehaviour:
   itemId: 424
   errorMessage: 
   indentLevel: 0
-  targetFlowchart: {fileID: 617275355}
-  targetBlock: {fileID: 617275438}
+  targetFlowchart: {fileID: 321827850}
+  targetBlock: {fileID: 321828142}
   callMode: 0
 --- !u!114 &321827905
 MonoBehaviour:
@@ -13775,7 +13775,7 @@ MonoBehaviour:
   startVolume: 1
   endVolume: 1
   fadeDuration: 0
-  waitUntilFinished: 1
+  waitUntilFinished: 0
 --- !u!114 &321828309
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -15545,7 +15545,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 617275355}
+  selectedFlowchart: {fileID: 1215983408}
 --- !u!4 &361871483
 Transform:
   m_ObjectHideFlags: 1
@@ -17471,7 +17471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollPos: {x: 220.91394, y: 35.0582581}
+  scrollPos: {x: 561.703491, y: 73.216217}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 0
   blockViewHeight: 252
@@ -17482,9 +17482,8 @@ MonoBehaviour:
     y: -532.04895
     width: 2610.32227
     height: 1732.63831
-  selectedBlock: {fileID: 457185116}
-  selectedCommands:
-  - {fileID: 457184754}
+  selectedBlock: {fileID: 457185216}
+  selectedCommands: []
   variables:
   - {fileID: 457184746}
   - {fileID: 457184745}
@@ -17903,7 +17902,7 @@ MonoBehaviour:
   startVolume: 1
   endVolume: 1
   fadeDuration: 0
-  waitUntilFinished: 1
+  waitUntilFinished: 0
 --- !u!114 &457184755
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -22892,8 +22891,8 @@ MonoBehaviour:
   itemId: 463
   errorMessage: 
   indentLevel: 0
-  targetFlowchart: {fileID: 617275355}
-  targetBlock: {fileID: 617275438}
+  targetFlowchart: {fileID: 457184729}
+  targetBlock: {fileID: 457184698}
   callMode: 0
 --- !u!114 &457184983
 MonoBehaviour:
@@ -23692,8 +23691,8 @@ MonoBehaviour:
   itemId: 424
   errorMessage: 
   indentLevel: 0
-  targetFlowchart: {fileID: 617275355}
-  targetBlock: {fileID: 617275438}
+  targetFlowchart: {fileID: 457184729}
+  targetBlock: {fileID: 457184698}
   callMode: 0
 --- !u!114 &457185021
 MonoBehaviour:
@@ -29405,11 +29404,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollPos: {x: 400.687988, y: 59.9343262}
+  scrollPos: {x: -38.456665, y: -466.710205}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 0
   blockViewHeight: 424
-  zoom: .760000169
+  zoom: .640000224
   scrollViewRect:
     serializedVersion: 2
     x: -788.3703
@@ -32925,8 +32924,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 218.894836
-    y: 695.695679
+    x: 217.332367
+    y: 697.258179
     width: 121
     height: 40
   itemId: 165
@@ -35989,8 +35988,8 @@ MonoBehaviour:
   itemId: 398
   errorMessage: 
   indentLevel: 1
-  storyText: I have performed diagnostics on the navigation systems and everything
-    appears to be functioning correctly.
+  storyText: '"I have performed diagnostics on the navigation systems and everything
+    appears to be functioning correctly."'
   description: 
   character: {fileID: 1888752072}
   portrait: {fileID: 0}
@@ -36044,7 +36043,7 @@ MonoBehaviour:
   itemId: 396
   errorMessage: 
   indentLevel: 1
-  storyText: Diagnostics still need to be run on the navigational systems as well.
+  storyText: '"Diagnostics still need to be run on the navigational systems as well."'
   description: 
   character: {fileID: 1888752072}
   portrait: {fileID: 0}
@@ -36112,9 +36111,9 @@ MonoBehaviour:
   itemId: 393
   errorMessage: 
   indentLevel: 2
-  storyText: I have performed diagnostics on the life support systems and found that
-    a filter needed to be replaced, so I have done so and everything seems to have
-    returned to normal.
+  storyText: '"I have performed diagnostics on the life support systems and found
+    that a filter needed to be replaced, so I have done so and everything seems to
+    have returned to normal."'
   description: 
   character: {fileID: 1888752072}
   portrait: {fileID: 0}
@@ -36168,8 +36167,8 @@ MonoBehaviour:
   itemId: 391
   errorMessage: 
   indentLevel: 2
-  storyText: I have performed diagnostics on the life support systems and found that
-    a filter needs to be replaced, although I have not done that yet.
+  storyText: '"I have performed diagnostics on the life support systems and found
+    that a filter needs to be replaced, although I have not done that yet."'
   description: 
   character: {fileID: 1888752072}
   portrait: {fileID: 0}
@@ -36223,7 +36222,7 @@ MonoBehaviour:
   itemId: 389
   errorMessage: 
   indentLevel: 1
-  storyText: I haven't checked on the life support systems yet.
+  storyText: '"I haven''t checked on the life support systems yet."'
   description: 
   character: {fileID: 1888752072}
   portrait: {fileID: 0}
@@ -43171,7 +43170,6 @@ GameObject:
   - 114: {fileID: 1040455971}
   - 114: {fileID: 1040455984}
   - 114: {fileID: 1040455983}
-  - 114: {fileID: 1040455982}
   - 114: {fileID: 1040455894}
   - 114: {fileID: 1040455902}
   - 114: {fileID: 1040455886}
@@ -43197,7 +43195,6 @@ GameObject:
   - 114: {fileID: 1040455934}
   - 114: {fileID: 1040455932}
   - 114: {fileID: 1040455924}
-  - 114: {fileID: 1040455881}
   - 114: {fileID: 1040455956}
   - 114: {fileID: 1040455953}
   - 114: {fileID: 1040455899}
@@ -43227,6 +43224,8 @@ GameObject:
   - 114: {fileID: 1040455891}
   - 114: {fileID: 1040455887}
   - 114: {fileID: 1040455882}
+  - 114: {fileID: 1040455957}
+  - 114: {fileID: 1040455881}
   m_Layer: 0
   m_Name: W3Warp1
   m_TagString: Untagged
@@ -43350,18 +43349,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1040455875}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc30c92f7ffe3d746ac76cd528d616e5, type: 3}
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 934
+  itemId: 978
   errorMessage: 
   indentLevel: 1
-  control: 1
-  audioSource: {fileID: 1236029639}
-  startVolume: 1
-  endVolume: .100000001
-  fadeDuration: 5
-  waitUntilFinished: 0
+  musicClip: {fileID: 8300000, guid: 5c4221738177c824b850b0366f33c1b1, type: 3}
+  atTime: 0
 --- !u!114 &1040455882
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -43563,7 +43558,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollPos: {x: 238.429718, y: 19.7485428}
+  scrollPos: {x: 454.913208, y: 17.5506592}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 252
@@ -43574,9 +43569,8 @@ MonoBehaviour:
     y: -532.04895
     width: 2421.92676
     height: 1732.63831
-  selectedBlock: {fileID: 1040455929}
-  selectedCommands:
-  - {fileID: 1040455965}
+  selectedBlock: {fileID: 1040455911}
+  selectedCommands: []
   variables:
   - {fileID: 1040455886}
   description: 
@@ -43625,8 +43619,8 @@ MonoBehaviour:
   - {fileID: 1040455901}
   - {fileID: 1040455900}
   - {fileID: 1040455893}
-  - {fileID: 1040455881}
   - {fileID: 1040455898}
+  - {fileID: 1040455881}
   - {fileID: 1040455897}
   - {fileID: 1040455896}
   - {fileID: 1040455895}
@@ -44826,6 +44820,20 @@ MonoBehaviour:
   eventHandler: {fileID: 1040455953}
   commandList:
   - {fileID: 1040455899}
+--- !u!114 &1040455957
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1040455875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 977
+  errorMessage: 
+  indentLevel: 0
 --- !u!114 &1040455958
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -44917,7 +44925,7 @@ MonoBehaviour:
   startVolume: 1
   endVolume: 1
   fadeDuration: 0
-  waitUntilFinished: 1
+  waitUntilFinished: 0
 --- !u!114 &1040455967
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -45045,7 +45053,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 256.625305
+    x: 255.526428
     y: 626.954773
     width: 120
     height: 40
@@ -45054,7 +45062,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1040455982}
+  - {fileID: 1040455957}
   - {fileID: 1040455984}
   - {fileID: 1040455983}
 --- !u!114 &1040455976
@@ -45156,26 +45164,6 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   menuDialog: {fileID: 1751569667}
---- !u!114 &1040455982
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1040455875}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc30c92f7ffe3d746ac76cd528d616e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 909
-  errorMessage: 
-  indentLevel: 0
-  control: 3
-  audioSource: {fileID: 1236029639}
-  startVolume: 1
-  endVolume: 1
-  fadeDuration: 0
-  waitUntilFinished: 0
 --- !u!114 &1040455983
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -48035,7 +48023,6 @@ GameObject:
   - 114: {fileID: 1215983664}
   - 114: {fileID: 1215983412}
   - 114: {fileID: 1215983663}
-  - 114: {fileID: 1215983385}
   - 114: {fileID: 1215983383}
   - 114: {fileID: 1215983661}
   - 114: {fileID: 1215983656}
@@ -48371,9 +48358,8 @@ MonoBehaviour:
   - {fileID: 1215983388}
   - {fileID: 1215983387}
   - {fileID: 1215983386}
-  - {fileID: 1215983385}
-  - {fileID: 1215983384}
   - {fileID: 1215983383}
+  - {fileID: 1215983384}
   - {fileID: 1215983382}
   - {fileID: 1215983376}
 --- !u!114 &1215983376
@@ -48535,11 +48521,10 @@ MonoBehaviour:
   itemId: 523
   errorMessage: 
   indentLevel: 0
-  storyText: I would like you to assess the anomaly, and then, at your convenience,
-    please check the life support and ship systems and update the logs.
+  storyText: Greetings, Mari.
   description: 
-  character: {fileID: 2109630365}
-  portrait: {fileID: 21300000, guid: 5c729a31f76071e46a10868fdbbef5cb, type: 3}
+  character: {fileID: 2105230861}
+  portrait: {fileID: 21300000, guid: 867cec1a8d377324c8586268fcc71188, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -48547,7 +48532,7 @@ MonoBehaviour:
   fadeIn: 0
   fadeOut: 0
   waitForClick: 1
-  setSayDialog: {fileID: 123292806}
+  setSayDialog: {fileID: 1130729641}
 --- !u!114 &1215983384
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -48563,32 +48548,6 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   sayDialog: {fileID: 123292806}
---- !u!114 &1215983385
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1215983374}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 522
-  errorMessage: 
-  indentLevel: 0
-  storyText: "Greetings, Mari. \nWe have encountered an anomaly."
-  description: 
-  character: {fileID: 2109630365}
-  portrait: {fileID: 21300000, guid: 5c729a31f76071e46a10868fdbbef5cb, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeIn: 0
-  fadeOut: 0
-  waitForClick: 1
-  setSayDialog: {fileID: 869084215}
 --- !u!114 &1215983386
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -48603,9 +48562,8 @@ MonoBehaviour:
   itemId: 1
   errorMessage: 
   indentLevel: 0
-  storyText: '{i}Once again as you return to consciousness, you catch yourself reaching
-    for Lili. You have the vague sense that you may have dreamed of her again while
-    in hypersleep...{/i}'
+  storyText: '{i}You wake, remembering the strangeness with the AI. You hope things
+    are back to normal now...{/i}'
   description: 
   character: {fileID: 1888752072}
   portrait: {fileID: 0}
@@ -48948,7 +48906,7 @@ MonoBehaviour:
   itemId: 690
   errorMessage: 
   indentLevel: 1
-  targetGameObject: {fileID: 1599737272}
+  targetGameObject: {fileID: 950066357}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -49079,20 +49037,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollPos: {x: 457.550598, y: 158.539673}
+  scrollPos: {x: 380.916565, y: 112.473053}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 0
   blockViewHeight: 365
-  zoom: .700000048
+  zoom: .730000019
   scrollViewRect:
     serializedVersion: 2
     x: -788.3703
     y: -532.04895
     width: 2488.54053
     height: 1732.63831
-  selectedBlock: {fileID: 1215983427}
-  selectedCommands:
-  - {fileID: 1215983925}
+  selectedBlock: {fileID: 1215983875}
+  selectedCommands: []
   variables:
   - {fileID: 1215983425}
   - {fileID: 1215983424}
@@ -50490,7 +50447,7 @@ MonoBehaviour:
   setMenuDialog: {fileID: 0}
 --- !u!114 &1215983478
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1215983374}
@@ -50850,7 +50807,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 228.790863
-    y: 570.589233
+    y: 569.21936
     width: 120
     height: 40
   itemId: 1093
@@ -51344,7 +51301,7 @@ MonoBehaviour:
     stringVal: 
 --- !u!114 &1215983516
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1215983374}
@@ -51429,7 +51386,7 @@ MonoBehaviour:
   setMenuDialog: {fileID: 0}
 --- !u!114 &1215983520
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1215983374}
@@ -54653,8 +54610,8 @@ MonoBehaviour:
   itemId: 463
   errorMessage: 
   indentLevel: 0
-  targetFlowchart: {fileID: 617275355}
-  targetBlock: {fileID: 617275438}
+  targetFlowchart: {fileID: 1215983408}
+  targetBlock: {fileID: 1215983377}
   callMode: 0
 --- !u!114 &1215983683
 MonoBehaviour:
@@ -55328,8 +55285,8 @@ MonoBehaviour:
   itemId: 424
   errorMessage: 
   indentLevel: 0
-  targetFlowchart: {fileID: 617275355}
-  targetBlock: {fileID: 617275438}
+  targetFlowchart: {fileID: 1215983408}
+  targetBlock: {fileID: 1215983377}
   callMode: 0
 --- !u!114 &1215983721
 MonoBehaviour:
@@ -55942,7 +55899,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 492.800476
-    y: 462.390045
+    y: 461.020172
     width: 131
     height: 40
   itemId: 336
@@ -57772,7 +57729,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 1215983875}
-  clickableObject: {fileID: 1315417868}
+  clickableObject: {fileID: 292732889}
 --- !u!114 &1215983853
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -58849,7 +58806,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 63.9495239
-    y: 239.867371
+    y: 238.497498
     width: 120
     height: 40
   itemId: 35
@@ -59211,7 +59168,7 @@ MonoBehaviour:
   startVolume: 1
   endVolume: 1
   fadeDuration: 0
-  waitUntilFinished: 1
+  waitUntilFinished: 0
 --- !u!114 &1215983926
 MonoBehaviour:
   m_ObjectHideFlags: 2
