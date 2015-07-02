@@ -2573,8 +2573,8 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 87, y: -180}
-  m_SizeDelta: {x: 350, y: 350}
+  m_AnchoredPosition: {x: 62.5, y: -76}
+  m_SizeDelta: {x: 252, y: 216.5}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &315616825
 MonoBehaviour:
@@ -2679,9 +2679,9 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 87, y: -180}
-  m_SizeDelta: {x: 350, y: 350}
-  m_Pivot: {x: .5, y: .5}
+  m_AnchoredPosition: {x: 58, y: -72}
+  m_SizeDelta: {x: 232, y: 201}
+  m_Pivot: {x: .5, y: .500000179}
 --- !u!114 &318011871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3276,9 +3276,8 @@ MonoBehaviour:
     y: -532.04895
     width: 2421.92676
     height: 1732.63831
-  selectedBlock: {fileID: 321827865}
-  selectedCommands:
-  - {fileID: 321827866}
+  selectedBlock: {fileID: 321828230}
+  selectedCommands: []
   variables:
   - {fileID: 321827862}
   - {fileID: 321828010}
@@ -10152,9 +10151,9 @@ MonoBehaviour:
   itemId: 50
   errorMessage: 
   indentLevel: 0
-  text: Return to default view
+  text: View the anomaly
   description: 
-  targetBlock: {fileID: 321828157}
+  targetBlock: {fileID: 0}
   hideIfVisited: 0
   setMenuDialog: {fileID: 0}
 --- !u!114 &321828157
@@ -15545,7 +15544,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1215983408}
+  selectedFlowchart: {fileID: 457184729}
 --- !u!4 &361871483
 Transform:
   m_ObjectHideFlags: 1
@@ -16031,11 +16030,11 @@ MonoBehaviour:
   m_Color: {r: 1, g: .294117659, b: 0, a: .945098042}
   m_FontData:
     m_Font: {fileID: 12800000, guid: 908837e497a66e74d8bcdf12b698bf2d, type: 3}
-    m_FontSize: 40
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 20
+    m_MaxSize: 50
     m_Alignment: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -16058,8 +16057,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 914, y: -230}
-  m_SizeDelta: {x: 1350, y: 275}
+  m_AnchoredPosition: {x: 614, y: -231}
+  m_SizeDelta: {x: 977, y: 322}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &439866247
 MonoBehaviour:
@@ -16697,6 +16696,11 @@ GameObject:
   - 114: {fileID: 457184769}
   - 114: {fileID: 457184728}
   - 114: {fileID: 457184725}
+  - 114: {fileID: 457184868}
+  - 114: {fileID: 457184867}
+  - 114: {fileID: 457184866}
+  - 114: {fileID: 457184870}
+  - 114: {fileID: 457184869}
   m_Layer: 0
   m_Name: Waking3
   m_TagString: Untagged
@@ -17482,7 +17486,7 @@ MonoBehaviour:
     y: -532.04895
     width: 2610.32227
     height: 1732.63831
-  selectedBlock: {fileID: 457185216}
+  selectedBlock: {fileID: 457185150}
   selectedCommands: []
   variables:
   - {fileID: 457184746}
@@ -18811,6 +18815,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 457184793}
   - {fileID: 457184792}
+  - {fileID: 457184869}
 --- !u!114 &457184798
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -18836,6 +18841,7 @@ MonoBehaviour:
   - {fileID: 457184796}
   - {fileID: 457184795}
   - {fileID: 457184794}
+  - {fileID: 457184870}
 --- !u!114 &457184799
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -20316,6 +20322,101 @@ MonoBehaviour:
   soundClip: {fileID: 8300000, guid: f637c5ce9d10e45c7855ed89bfc6b97e, type: 3}
   volume: 1
   waitUntilFinished: 0
+--- !u!114 &457184866
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 457184695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1120
+  errorMessage: 
+  indentLevel: 0
+  text: Perform other duties
+  description: 
+  targetBlock: {fileID: 457184698}
+  hideIfVisited: 0
+  setMenuDialog: {fileID: 0}
+--- !u!114 &457184867
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 457184695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1119
+  errorMessage: 
+  indentLevel: 0
+  text: Perform other duties
+  description: 
+  targetBlock: {fileID: 457184698}
+  hideIfVisited: 0
+  setMenuDialog: {fileID: 0}
+--- !u!114 &457184868
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 457184695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1118
+  errorMessage: 
+  indentLevel: 0
+  text: Perform other duties
+  description: 
+  targetBlock: {fileID: 457184698}
+  hideIfVisited: 0
+  setMenuDialog: {fileID: 0}
+--- !u!114 &457184869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 457184695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1122
+  errorMessage: 
+  indentLevel: 0
+  text: Perform other duties
+  description: 
+  targetBlock: {fileID: 457184698}
+  hideIfVisited: 0
+  setMenuDialog: {fileID: 0}
+--- !u!114 &457184870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 457184695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1121
+  errorMessage: 
+  indentLevel: 0
+  text: Perform other duties
+  description: 
+  targetBlock: {fileID: 457184698}
+  hideIfVisited: 0
+  setMenuDialog: {fileID: 0}
 --- !u!114 &457184871
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21401,7 +21502,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1076.90649
+    x: 1075.5907
     y: 256.308075
     width: 182
     height: 40
@@ -26145,6 +26246,7 @@ MonoBehaviour:
   - {fileID: 457185073}
   - {fileID: 457184811}
   - {fileID: 457184941}
+  - {fileID: 457184867}
 --- !u!114 &457185151
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -26598,6 +26700,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 457185169}
   - {fileID: 457185166}
+  - {fileID: 457184868}
 --- !u!114 &457185171
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -26849,7 +26952,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 272.235291
+    x: 270.919495
     y: 200.759659
     width: 120
     height: 40
@@ -27479,7 +27582,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 54.9731903
+    x: 53.6573944
     y: 548.334045
     width: 124
     height: 40
@@ -27494,6 +27597,7 @@ MonoBehaviour:
   - {fileID: 457185189}
   - {fileID: 457184791}
   - {fileID: 457184790}
+  - {fileID: 457184866}
 --- !u!114 &457185212
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -27686,7 +27790,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 224.200806
+    x: 222.88501
     y: 532.36908
     width: 136
     height: 40
@@ -29404,7 +29508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollPos: {x: -38.456665, y: -466.710205}
+  scrollPos: {x: 500.605591, y: 189.539581}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 0
   blockViewHeight: 424
@@ -40064,7 +40168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: .294117659, b: 0, a: .945098042}
+  m_Color: {r: 1, g: .294117659, b: 0, a: 0}
   m_FontData:
     m_Font: {fileID: 12800000, guid: 25e018cca3f8250428bdecebfbf3ce93, type: 3}
     m_FontSize: 50
@@ -40284,7 +40388,7 @@ RectTransform:
   m_RootOrder: 3
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -36, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &869084215
@@ -41904,8 +42008,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: .5, y: 0}
   m_AnchorMax: {x: .5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 57}
-  m_SizeDelta: {x: 1600, y: 380}
+  m_AnchoredPosition: {x: 0, y: 45}
+  m_SizeDelta: {x: 1102, y: 392}
   m_Pivot: {x: .5, y: 0}
 --- !u!114 &922428407
 MonoBehaviour:
@@ -45891,7 +45995,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: .294117659, b: 0, a: .945098042}
+  m_Color: {r: 1, g: .294117659, b: 0, a: 0}
   m_FontData:
     m_Font: {fileID: 12800000, guid: 908837e497a66e74d8bcdf12b698bf2d, type: 3}
     m_FontSize: 50
@@ -48133,7 +48237,6 @@ GameObject:
   - 114: {fileID: 1215983406}
   - 114: {fileID: 1215983405}
   - 114: {fileID: 1215983404}
-  - 114: {fileID: 1215983457}
   - 114: {fileID: 1215983438}
   - 114: {fileID: 1215983437}
   - 114: {fileID: 1215983436}
@@ -48305,6 +48408,11 @@ GameObject:
   - 114: {fileID: 1215983520}
   - 114: {fileID: 1215983516}
   - 114: {fileID: 1215983478}
+  - 114: {fileID: 1215983547}
+  - 114: {fileID: 1215983546}
+  - 114: {fileID: 1215983545}
+  - 114: {fileID: 1215983457}
+  - 114: {fileID: 1215983385}
   m_Layer: 0
   m_Name: Waking4
   m_TagString: Untagged
@@ -48494,8 +48602,8 @@ MonoBehaviour:
   itemId: 29
   errorMessage: 
   indentLevel: 0
-  storyText: We are currently 7.72 light years from Earth and have completed approximately
-    34% of our journey to Gliese667Cc.
+  storyText: We are currently 24 light years from Earth and have completed approximately
+    96% of our journey to Gliese667Cc.
   description: 
   character: {fileID: 2109630365}
   portrait: {fileID: 21300000, guid: 5c729a31f76071e46a10868fdbbef5cb, type: 3}
@@ -48548,6 +48656,25 @@ MonoBehaviour:
   errorMessage: 
   indentLevel: 0
   sayDialog: {fileID: 123292806}
+--- !u!114 &1215983385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1215983374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1139
+  errorMessage: 
+  indentLevel: 0
+  text: Perform other duties
+  description: 
+  targetBlock: {fileID: 1215983377}
+  hideIfVisited: 0
+  setMenuDialog: {fileID: 0}
 --- !u!114 &1215983386
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -49048,7 +49175,7 @@ MonoBehaviour:
     y: -532.04895
     width: 2488.54053
     height: 1732.63831
-  selectedBlock: {fileID: 1215983875}
+  selectedBlock: {fileID: 1215983500}
   selectedCommands: []
   variables:
   - {fileID: 1215983425}
@@ -49662,7 +49789,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 394.474701
+    x: 393.104828
     y: 195.619415
     width: 148
     height: 40
@@ -49674,6 +49801,7 @@ MonoBehaviour:
   - {fileID: 1215983477}
   - {fileID: 1215983467}
   - {fileID: 1215983441}
+  - {fileID: 1215983546}
 --- !u!114 &1215983443
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -50022,20 +50150,23 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &1215983457
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1215983374}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 847
+  itemId: 1138
   errorMessage: 
   indentLevel: 0
-  commenterName: 
-  commentText: TODO
+  text: Perform other duties
+  description: 
+  targetBlock: {fileID: 1215983377}
+  hideIfVisited: 0
+  setMenuDialog: {fileID: 0}
 --- !u!114 &1215983458
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -50818,6 +50949,7 @@ MonoBehaviour:
   - {fileID: 1215983497}
   - {fileID: 1215983496}
   - {fileID: 1215983495}
+  - {fileID: 1215983457}
 --- !u!114 &1215983495
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -50937,6 +51069,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1215983499}
   - {fileID: 1215983498}
+  - {fileID: 1215983385}
 --- !u!114 &1215983501
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -51917,6 +52050,63 @@ MonoBehaviour:
   soundClip: {fileID: 8300000, guid: f637c5ce9d10e45c7855ed89bfc6b97e, type: 3}
   volume: 1
   waitUntilFinished: 0
+--- !u!114 &1215983545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1215983374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1137
+  errorMessage: 
+  indentLevel: 0
+  text: Perform other duties
+  description: 
+  targetBlock: {fileID: 1215983377}
+  hideIfVisited: 0
+  setMenuDialog: {fileID: 0}
+--- !u!114 &1215983546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1215983374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1136
+  errorMessage: 
+  indentLevel: 0
+  text: Perform other duties
+  description: 
+  targetBlock: {fileID: 1215983377}
+  hideIfVisited: 0
+  setMenuDialog: {fileID: 0}
+--- !u!114 &1215983547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1215983374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1135
+  errorMessage: 
+  indentLevel: 0
+  text: Perform other duties
+  description: 
+  targetBlock: {fileID: 1215983377}
+  hideIfVisited: 0
+  setMenuDialog: {fileID: 0}
 --- !u!114 &1215983549
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -54859,7 +55049,7 @@ MonoBehaviour:
   indentLevel: 1
   text: Perform other duties
   description: 
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 1215983377}
   hideIfVisited: 0
   setMenuDialog: {fileID: 0}
 --- !u!114 &1215983704
@@ -57583,7 +57773,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1215983457}
   - {fileID: 1215983831}
   - {fileID: 1215983645}
   - {fileID: 1215983844}
@@ -57627,7 +57816,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 235.838562
+    x: 237.208435
     y: 197.533508
     width: 120
     height: 40
@@ -57640,6 +57829,7 @@ MonoBehaviour:
   - {fileID: 1215983439}
   - {fileID: 1215983471}
   - {fileID: 1215983641}
+  - {fileID: 1215983547}
 --- !u!114 &1215983848
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -58969,6 +59159,7 @@ MonoBehaviour:
   - {fileID: 1215983886}
   - {fileID: 1215983493}
   - {fileID: 1215983492}
+  - {fileID: 1215983545}
 --- !u!114 &1215983910
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -62451,7 +62642,7 @@ RectTransform:
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: -785, y: -600}
-  m_SizeDelta: {x: 1600, y: 1200}
+  m_SizeDelta: {x: 1102, y: 1200}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1627203725
 MonoBehaviour:
@@ -64095,8 +64286,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: .5, y: 0}
   m_AnchorMax: {x: .5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 57}
-  m_SizeDelta: {x: 1600, y: 380}
+  m_AnchoredPosition: {x: -249, y: -3.05180001e-05}
+  m_SizeDelta: {x: 1102, y: 437}
   m_Pivot: {x: .5, y: 0}
 --- !u!1 &1784148617
 GameObject:
@@ -64546,8 +64737,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 914, y: -230}
-  m_SizeDelta: {x: 1350, y: 275}
+  m_AnchoredPosition: {x: 614, y: -259}
+  m_SizeDelta: {x: 977, y: 356}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1819635152
 MonoBehaviour:
